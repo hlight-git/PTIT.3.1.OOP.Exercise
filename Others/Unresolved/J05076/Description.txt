@@ -1,0 +1,41 @@
+ID: J05076
+Problem's name: NHẬP XUẤT HÀNG
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Cửa hàng điện máy muốn thống kê tính toán các giao dịch nhập, xuất hàng trong kỳ. Mỗi mặt hàng có mã hàng, tên hàng và xếp loại. Trong đó xếp loại mặt hàng do cửa hàng tự đặt ra khi nhập hàng với ba giá trị A, B, C tương ứng với mức lãi suất kỳ vọng khi xuất hàng lần lượt là 8%, 5% và 2%.
+Hãy tính tổng giá trị nhập và xuất của mỗi mặt hàng trong kỳ.
+Biết rằng có thể có mặt hàng xuất hiện nhiều hơn một lần vì được nhập vào các thời điểm khác nhau, khi đó có thể đơn giá nhập cũng khác nhau và vẫn được thống kê thành các dòng độc lập, không cần cộng dồn.
+Đơn giá các mặt hàng điện máy (tính bằng USD) thường cao và là số tròn chục nên khi tính tổng giá trị xuất với tỉ lệ lợi nhuận kỳ vọng thì cũng sẽ vẫn nhận được các giá trị nguyên.
+Input:
+Dòng đầu ghi số n là số mặt hàng. Mỗi mặt hàng ghi trên 3 dòng gồm: mã, tên và xếp loại.
+Tiếp theo là một dòng ghi số m là số dòng thống kê trong bảng.
+Mỗi dòng thống kê gồm các thông tin: mã hàng, số lượng nhập, đơn giá nhập, số lượng xuất. Với các giá trị đều nguyên dương và số lượng xuất đảm bảo không vượt quá số lượng nhập.  
+Output:
+Ghi ra đúng m dòng theo đúng thứ tự nhập gồm các thông tin:
+Mã hàng
+Tên hàng
+Tổng trị giá nhập
+Tổng trị giá xuất
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+A001
+Tu lanh
+A
+P002
+May giat
+B
+2
+A001 500 100 300
+P002 1000 1000 500
+-----------------OUTPUT 0-----------------
+A001 Tu lanh 50000 32400
+P002 May giat 1000000 525000
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 200000 Kb

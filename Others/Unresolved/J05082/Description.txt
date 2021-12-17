@@ -1,0 +1,40 @@
+ID: J05082
+Problem's name: DANH SÁCH KHÁCH HÀNG
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Bài toán quản lý danh sách khách hàng, trong đó mỗi Khách hàng có các thông tin:
+Mã khách hàng: tự động tăng, tính từ KH001
+Tên khách hàng: xâu ký tự độ dài không quá 50, cần đưa về dạng chuẩn
+Giới tính: Nam hoặc Nu
+Ngày sinh: cần đưa về dạng chuẩn dd/mm/yyyy
+Địa chỉ: xâu ký tự độ dài không quá 100
+Viết chương trình nhập danh sách khách hàng, sắp xếp theo ngày sinh từ già nhất đến trẻ nhất. Không có hai khách hàng nào cùng ngày sinh. 
+Input
+Dòng đầu ghi số N là số khách hàng (không quá 20).
+Tiếp theo là thông tin của N khách hàng, mỗi khách hàng ghi trên 4 dòng theo đúng thứ tự đã mô tả (không có mã)
+Output
+Danh sách khách hàng với đầy đủ các thông tin liệt kê ở trên, trong đó tên và ngày sinh đã được chuẩn hóa. 
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+ nGuyen VAN     nAm
+Nam
+12/12/1997
+Mo Lao-Ha Dong-Ha Noi
+ TRan    vAn     biNh
+Nam
+14/11/1995
+Phung Khoang-Nam Tu Liem-Ha Noi
+ 
+-----------------OUTPUT 0-----------------
+KH002 Tran Van Binh Nam Phung Khoang-Nam Tu Liem-Ha Noi 14/11/1995
+KH001 Nguyen Van Nam Nam Mo Lao-Ha Dong-Ha Noi 12/12/1997
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

@@ -1,0 +1,18 @@
+TÍNH TỔNG
+Bài làm tốt nhất
+Cho số nguyên dương N. 
+Hãy tính S = 1 + 2 + ... + N
+Dữ liệu vào: 
+Dòng đầu ghi số bộ test, không quá 10
+Mỗi dòng ghi một số nguyên dương N, không quá 10^9
+Kết quả:
+Với mỗi test, ghi kết quả trên một dòng.
+Ví dụ:
+Input
+Output
+2
+10
+20
+55
+210
+         

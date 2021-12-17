@@ -1,0 +1,30 @@
+ID: J03025
+Problem's name: XÂU ĐỐI XỨNG
+Type: NGÔN NGỮ JAVA
+Topic: XÂU KÝ TỰ
+
+
+_______________________________________________________________________________
+Cho trước một xâu S. Bạn thay đổi đúng 1 kí tự. Hãy kiểm tra xem liệu bạn có thể tạo ra được xâu đối xứng hay không.
+Input:
+Dòng đầu tiên là số lượng bộ test T (T <= 20).
+Mỗi test gồm 1 xâu S có độ dài không quá 15 kí tự.
+Output: 
+Với mỗi test, in ra “YES” nếu có thể biến đổi xâu S thành xâu đối xứng, in ra “NO” trong trường hợp ngược lại.
+ 
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+abccaa
+abbcca
+abcda
+ 
+-----------------OUTPUT 0-----------------
+YES
+NO
+YES
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

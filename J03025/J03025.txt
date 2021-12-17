@@ -1,0 +1,19 @@
+XÂU ĐỐI XỨNG
+Bài làm tốt nhất
+Cho trước một xâu S. Bạn thay đổi đúng 1 kí tự. Hãy kiểm tra xem liệu bạn có thể tạo ra được xâu đối xứng hay không.
+Input:
+Dòng đầu tiên là số lượng bộ test T (T <= 20).
+Mỗi test gồm 1 xâu S có độ dài không quá 15 kí tự.
+Output: 
+Với mỗi test, in ra “YES” nếu có thể biến đổi xâu S thành xâu đối xứng, in ra “NO” trong trường hợp ngược lại.
+  Ví dụ:
+Input:
+Output
+3
+abccaa
+abbcca
+abcda
+  YES
+NO
+YES
+ 

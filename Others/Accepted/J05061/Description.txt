@@ -1,0 +1,61 @@
+ID: J05061
+Problem's name: SẮP XẾP KẾT QUẢ XÉT TUYỂN
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Nghề phụ hồ đang là vua của các nghề. Với mức lương tăng lên chóng mặt, số người thi tuyển để có một vị trí phụ hồ trong các công trường xây dựng đang tăng lên nhanh chóng, bất kể nam hay nữ, già hay trẻ.
+Bài thi sát hạch sẽ có ý nghĩa quan trọng để tính lương. Gồm 2 nội dung: thi lý thuyết và thi thực hành. Điểm để xếp loại sẽ là điểm trung bình của hai bài thi đó cộng với điểm thưởng và làm tròn (round) đến hàng đơn vị. (Chú ý nếu tổng lớn hơn 10 thì vẫn chỉ là 10).
+Điểm thưởng được tính như sau:
+Nếu không có điểm nào nhỏ hơn 8 thì điểm thưởng = 1
+Nếu không có điểm nào nhỏ hơn 7.5 thì điểm thưởng = 0.5
+Còn lại: không có điểm thưởng.
+Xếp loại theo quy tắc sau:
+Nhỏ hơn 5: Truot
+Từ 5 đến 6: Trung binh
+Điểm 7: Kha
+Điểm 8: Gioi
+Điểm 9 hoặc 10: Xuat sac
+Hãy nhập thông tin và lập bảng kết quả xếp loại, sau đó sắp xếp theo điểm trung bình giảm dần.
+Input
+Dòng đầu ghi số người thi tuyển (nhỏ hơn 100).
+Mỗi người sẽ có thông tin trên 4 dòng gồm:
+Họ tên
+Ngày sinh (đúng định dạng dd/mm/yyyy)
+Điểm lý thuyết
+Điểm thực hành
+Các giá trị điểm đảm bảo trong phạm vi 10 và có thể có 1 số phần thập phân.
+Output
+Ghi ra danh sách đã được sắp xếp theo điểm trung bình giảm dần (đã tính cả điểm thưởng và đã làm tròn), nếu có cùng điểm trung bình thì sắp xếp theo mã thi tuyển (thứ tự tăng dần).
+Các thông tin cách nhau một khoảng trống, lần lượt là:
+Mã thi tuyển (bắt đầu từ PH01)
+Tuổi (chỉ cần tính theo năm sinh)
+Điểm trung bình (đã tính cả điểm thưởng và làm tròn)
+Xếp loại
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+Doan Thi Kim
+13/03/1982
+8
+9.5
+Dinh Thi Ngoc Ha
+03/09/1996
+6.5
+8
+Tran Thanh Mai
+12/09/2004
+8
+9
+ 
+-----------------OUTPUT 0-----------------
+PH01 Doan Thi Kim 39 10 Xuat sac
+PH03 Tran Thanh Mai 17 10 Xuat sac
+PH02 Dinh Thi Ngoc Ha 25 7 Kha
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

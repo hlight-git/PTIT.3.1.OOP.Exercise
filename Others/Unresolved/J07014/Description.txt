@@ -1,0 +1,40 @@
+ID: J07014
+Problem's name: HỢP VÀ GIAO CỦA HAI FILE VĂN BẢN
+Type: NGÔN NGỮ JAVA
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+Cho hai file DATA1.in và DATA2.in.
+Một từ được định nghĩa là một dãy ký tự liên tiếp không có khoảng trống, dấu tab hay dấu xuống dòng. Tạm thời chưa xét đến các dấu câu trong bải toán này.
+Hãy viết chương trình liệt kê hợp và giao của hai tập từ khác nhau trong hai file.
+Các từ được liệt kê theo thứ tự từ điển.
+Input
+Hai file văn bản DATA1.in và DATA2.in, có không quá 200 dòng.
+Output
+Hợp và giao của hai tập từ khác nhau trong hai file ban đầu. Mỗi tập trên một dòng, các từ liệt kê theo thứ tự từ điển và cách nhau đúng một khoảng trống.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+lap trinh huong doi tuong
+ngon ngu lap trinh C++
+|||||||||||||||||INPUT 1||||||||||||||||||
+DATA2.in
+|||||||||||||||||INPUT 2||||||||||||||||||
+lap trinh co ban
+lap trinh huong thanh phan
+-----------------OUTPUT 0-----------------
+ban c++ co doi huong lap ngon ngu phan thanh trinh tuong
+huong lap trinh
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb
+Bài tập này yêu cầu sử dụng hàm main cho sẵn như sau:
+Java
+public static void main(String[] args) throws IOException {
+        WordSet s1 = new WordSet("DATA1.in");
+        WordSet s2 = new WordSet("DATA2.in");
+        System.out.println(s1.union(s2));
+        System.out.println(s1.intersection(s2));
+    }

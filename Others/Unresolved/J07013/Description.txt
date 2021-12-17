@@ -1,0 +1,26 @@
+ID: J07013
+Problem's name: DANH SÁCH SINH VIÊN TRONG FILE NHỊ PHÂN
+Type: NGÔN NGỮ JAVA
+Topic: 
+
+
+_______________________________________________________________________________
+Khai báo lớp SinhVien gồm các thông tin: ma, ten, lop kiểu String;  ngaysinh (kiểu Date), và gpa (dạng số thực float). Viết hàm khởi tạo sinh viên trong đó Mã SV được tự tạo ra theo quy tắc thêm mã B20DCCN từ giá trị số nguyên id (là thứ tự truyền vào hàm khởi tạo). Ngày sinh nhận tham số khởi tạo là xâu ký tự và được chuẩn hóa về dạng dd/mm/yyyy.
+Nhập một ArrayList<SinhVien> từ file nhị phân SV.in và in ra lần lượt màn hình mỗi dòng 1 sinh viên theo đúng thứ tự ban đầu.
+Chú ý: khai báo package trong bài này là danhsachsinhvien1
+Input (file SV.in)
+Có một ArrayList<SinhVien> được ghi ra với hàm writeObject();
+Output
+Ghi ra màn hình danh sách lần lượt các sinh viên có đầy đủ Mã sinh viên, Họ tên, Lớp, Ngày sinh (đã chuẩn hóa về dạng dd/mm/yyyy), Điểm GPA (với đúng 2 số sau dấu phẩy).
+Mỗi sinh viên ghi trên 1 dòng, mỗi thông tin cách nhau 1 khoảng trống.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+File nhị phân theo mô tả trong đề bài. 
+-----------------OUTPUT 0-----------------
+Danh sách sinh viên đọc được theo đúng thứ tự ban đầu, mồi sinh viên in ra ở dạng sau:
+B20DCCN001 Nguyen Van An D20CQCN01-B 02/12/2002 3.19
+_______________________________________________________________________________
+
+Giới hạn thời gian: 5s
+Giới hạn bộ nhớ: 200000 Kb

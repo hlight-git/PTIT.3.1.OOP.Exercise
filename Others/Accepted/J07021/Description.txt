@@ -1,0 +1,30 @@
+ID: J07021
+Problem's name: CHUẨN HÓA XÂU HỌ TÊN TRONG FILE
+Type: NGÔN NGỮ JAVA
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+Một xâu họ tên được coi là viết chuẩn nếu chữ cái đầu tiên mỗi từ được viết hoa, các chữ
+cái khác viết thường. Các từ cách nhau đúng một dấu cách và không có khoảng trống
+thừa ở đầu và cuối xâu. Hãy viết chương trình đưa các xâu họ tên về dạng chuẩn.
+Input - file DATA.in:
+Có nhiều bộ test. Mỗi bộ test ghi trên một dòng xâu ký tự họ tên, không quá 80 ký tự.
+Input kết thúc khi gặp xâu END
+Output:
+Với mỗi bộ test ghi ra xâu ký tự họ tên đã chuẩn hóa.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+   nGuYEN    vAN    naM
+tRan           TRUNG hiEU
+      vO le         hOA bINh
+END
+-----------------OUTPUT 0-----------------
+Nguyen Van Nam
+Tran Trung Hieu
+Vo Le Hoa Binh
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

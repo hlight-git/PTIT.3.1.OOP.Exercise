@@ -1,0 +1,18 @@
+ID: J07001
+Problem's name: ĐỌC FILE VĂN BẢN
+Type: NGÔN NGỮ JAVA
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+Lap trinh huong doi tuong
+voi Java
+-----------------OUTPUT 0-----------------
+Lap trinh huong doi tuong
+voi Java
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

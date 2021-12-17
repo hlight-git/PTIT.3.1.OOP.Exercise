@@ -1,0 +1,32 @@
+ID: J08028
+Problem's name: HÌNH CHỮ NHẬT ĐƠN SẮC
+Type: ỨNG DỤNG JAVA COLLECTIONS
+Topic: ỨNG DỤNG JAVA COLLECTION
+
+
+_______________________________________________________________________________
+Cho bảng có kích thước M*N các ô vuông đơn vị.
+Với mỗi dãy số A có N phần tử và các giá trị A[i] thỏa mãn nguyên dương, không vượt quá M, người ta tiến hành tô các ô trong bảng như sau:
+Tô từ trên xuống dưới trong từng cột
+Với cột thứ i, đầu tiên tô A[i] ô màu vàng, tiếp theo là M – A[i] ô màu xanh.
+Ví dụ dưới đây là bảng 5*5 với A[] = {2, 1, 3, 4, 0}.
+
+Hãy tính diện tích hình chữ nhật lớn nhất thỏa mãn:
+Cạnh hình chữ nhật song song với cạnh của bảng
+Tất cả các ô trong hình chữ nhật đều cùng màu.
+Input
+Dòng đầu tiên ghi hai số M và N (0 < N,M <=106 ).
+Dòng thứ 2 ghi N số của dãy A thỏa mãn ràng buộc đề bài.
+Output
+Ghi ra giá trị diện tích tính được.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+5 9
+1 3 4 4 5 4 4 3 1
+-----------------OUTPUT 0-----------------
+21
+_______________________________________________________________________________
+
+Giới hạn thời gian: 4s
+Giới hạn bộ nhớ: 150000 Kb

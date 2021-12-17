@@ -1,0 +1,23 @@
+ID: J02011
+Problem's name: SẮP XẾP CHỌN
+Type: NGÔN NGỮ JAVA
+Topic: MẢNG
+
+
+_______________________________________________________________________________
+Hãy thực hiện thuật toán sắp xếp chọn trên dãy N số nguyên. Ghi ra các bước thực hiện thuật toán.
+Dữ liệu vào: Dòng 1 ghi số N (không quá 100). Dòng 2 ghi N số nguyên dương (không quá 100).
+Kết quả: Ghi ra màn hình từng bước thực hiện thuật toán. Mỗi bước trên một dòng, các số trong dãy cách nhau đúng một khoảng trống.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+4
+5 7 3 2
+-----------------OUTPUT 0-----------------
+Buoc 1: 2 7 3 5
+Buoc 2: 2 3 7 5
+Buoc 3: 2 3 5 7
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

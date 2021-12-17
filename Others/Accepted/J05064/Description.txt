@@ -1,0 +1,45 @@
+ID: J05064
+Problem's name: BẢNG THU NHẬP GIÁO VIÊN
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Trường phổ thông XYZ tính lương giáo viên theo quy tắc sau:
+Mỗi giáo viên có mã ngạch gồm 4 ký tự trong đó
+2 ký tự đầu là chức vụ (HT: Giáo viên kiêm nhiệm Hiệu trưởng, HP: Giáo viên kiêm nhiệm Hiệu phó, GV: Giáo viên thường)
+2 ký tự số cuối cùng cho biết hệ số bậc lương (không quá 20)
+Lương cơ bản của mỗi giáo viên cũng có thể khác nhau
+Phụ cấp quy định như sau
+HT: 2.000.000
+HP: 900.000
+GV: 500.000
+Thu nhập được tính bằng lương cơ bản nhân với hệ số bậc lương và cộng thêm phụ cấp.
+Hãy tính lương cho các giáo viên theo quy tắc trên.
+Input
+Dòng đầu tiên ghi số lượng giáo viên.
+Mỗi giáo viên có 3 dòng lần lượt là mã ngạch, họ tên và lương cơ bản.
+Chú ý: chỉ cho phép có tối đa 1 Hiệu trưởng và 2 Hiệu phó, ưu tiên theo thứ tự nhập. Tức là từ người thứ 2 có mã HT hoặc người thứ 3 có mã HP trở lên sẽ không được đưa vào danh sách khi in ra.
+Ouput
+Ghi ra danh sách giáo viên theo đúng thứ tự nhập, với lần lượt các thông tin: mã ngạch, họ tên, bậc lương, phụ cấp, thu nhập.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+GV01
+Nguyen Kim Loan
+1420000
+HT05
+Hoang Thanh Tuan
+1780000
+GV02
+Tran Binh Nguyen
+1468000
+-----------------OUTPUT 0-----------------
+GV01 Nguyen Kim Loan 1 500000 1920000
+HT05 Hoang Thanh Tuan 5 2000000 10900000
+GV02 Tran Binh Nguyen 2 500000 3436000
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 150000 Kb

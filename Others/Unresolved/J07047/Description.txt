@@ -1,0 +1,65 @@
+ID: J07047
+Problem's name: QUẢN LÝ KHÁCH SẠN
+Type: HƯỚNG ĐỐI TƯỢNG NÂNG CAO
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+Khách sạn ABC có nhiều loại phòng khác nhau, mỗi loại phòng có các thông tin:
+Ký hiệu loại phòng (là một chữ cái viết hoa)
+Tên loại phòng: dãy ký tự viết hoa, không có khoảng trống
+Đơn giá ngày
+Phí phục vụ
+Thông tin về các khách hàng đến lưu trú gồm các thông tin sau:
+Mã khách hàng, tự động tăng tính từ KH01
+Họ và tên
+Mã phòng (dãy ký tự)
+Ngày đến
+Ngày đi
+Hãy nhập thông tin về phòng và khách lưu trú từ file DATA.in và tính toán tiền phải trả cho mỗi khách hàng.
+Các thông tin liên quan đến tính giá tiền phải trả:
+Ký tự thứ 3 trong mã phòng chính là ký hiệu của loại phòng tương ứng
+Phí phục vụ của mỗi loại phòng được tính nhân với số tiền phòng đã tính theo đơn giá ngày và được cộng dồn vào số tiền phải trả.
+Các phòng có thể được giảm giá theo quy tắc:
+Nếu số ngày < 10: không giảm
+Nếu số ngày từ 10 đến dưới 20: giảm 2%
+Nếu số ngày từ 20 đến dưới 30: giảm 4%
+Nếu số ngày lớn hơn 30: giảm 6%
+Khách lưu trú ở chưa đến một ngày cũng cần được tính giá tiền phòng tương dương với 1 ngày. 
+Sau khi tính toán, giá tiền phải trả cần làm tròn và in ra với hai chữ số phần thập phân.
+Input – DATA.in
+Dòng đầu ghi số loại phòng.
+Mỗi loại ghi trên một dòng với lần lượt các thông tin ký hiệu, tên, đơn giá, phí phục vụ. Mỗi thông tin cách nhau một khoảng trống.
+Tiếp theo là một dòng ghi số lượng khách hàng
+Mỗi khách hàng ghi trên 4 dòng gồm: họ tên, mã phòng, ngày đến, ngày đi.
+Output
+Ghi ra thông tin trên mỗi dòng gồm:
+Mã khách hàng
+Tên khách hàng
+Mã phòng
+Số ngày lưu trú
+Tiền phải trả
+Danh sách được sắp xếp theo số ngày lưu trú giảm dần. Dữ liệu đảm bảo không có hai khách hàng nào có cùng số ngày lưu trú.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+C THUONG 150 0.03
+B VIP 200 0.05
+2
+Nguyen Van Hoang
+55B1
+01/01/2021
+05/01/2021
+Nguyen Trung Dung
+04C6
+01/01/2021
+10/01/2021
+-----------------OUTPUT 0-----------------
+KH02 Nguyen Trung Dung 04C6 9 1390.50
+KH01 Nguyen Van Hoang 55B1 4 840.00
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 200000 Kb

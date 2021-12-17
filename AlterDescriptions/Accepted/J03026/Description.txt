@@ -1,0 +1,40 @@
+ID: J03026
+Problem's name: XÂU KHÁC NHAU DÀI NHẤT
+Type: NGÔN NGỮ JAVA
+Topic: XÂU KÝ TỰ
+
+
+_______________________________________________________________________________
+Cho 2 xâu A và B. Bạn hãy tìm xâu C dài nhất sao cho C chỉ là xâu con của A hoặc B, chứ không phải là xâu con của cả A và B.
+Input:
+Dòng đầu tiên là số lượng bộ test T (T <= 20).
+Mỗi test gồm 2 dòng, mô tả xâu A và B, mỗi xâu có độ dài không có 500 kí tự và chỉ gồm các chữ cái thường.
+Output: 
+Với mỗi test, in ra độ dài của xâu con khác nhau dài nhất tìm được.
+Nếu không có đáp án, in ra -1.
+ 
+Ví dụ:
+Input:
+Output
+2
+abcd
+defgh
+a
+a
+  5
+-1
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+abcd
+defgh
+a
+a
+ 
+-----------------OUTPUT 0-----------------
+5
+-1
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

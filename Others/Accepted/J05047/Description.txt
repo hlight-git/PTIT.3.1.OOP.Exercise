@@ -1,0 +1,50 @@
+ID: J05047
+Problem's name: BẢNG KÊ NHẬP KHO SẮP XẾP THEO CHIẾT KHẤU
+Type: HƯỚNG ĐỐI TƯỢNG NÂNG CAO
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Một cửa hàng điện máy nhập các mặt hàng và muốn thống kê chi phí. Mỗi lô mặt hàng sẽ có tiền chiết khấu và được trừ vào tổng giá tiền của hóa đơn nhập lô hàng đó.
+Tiền chiết khấu được tính như sau:
+ Tiền chiết khấu = Đơn giá * Số lượng * Phần trăm chiết khấu.
+Với:
+ Phần trăm chiết khấu là 5% nếu số lượng > 10,
+ Phần trăm chiết khấu là 2% nếu 8 <= số lượng <= 10,
+ Phần trăm chiết khấu là 1% nếu 5 <= số lượng <8,
+ Phần trăm chiết khấu là 0 nếu số lượng < 5.
+ 
+Ngoài ra, để dễ quản lý, nhân viên nhập kho sẽ gán mã mặt hàng cho từng lô hàng. Mã hàng sẽ được tạo ra bằng hai ký tự đầu tiên của tên hàng kèm theo số thứ tự tính từ 01 (giả sử không có nhiều hơn 9 lô hàng cùng loại trong đợt nhập này). Hãy tính thành tiền chi tiết cho các mặt hàng sau đó sắp xếp theo chiết khấu giảm dần. (Dữ liệu vào đảm bảo không có 2 lô hàng nào được chiết khấu bằng nhau).
+Input
+Dòng đầu ghi số lượng lô hàng
+Mỗi lô hàng ghi trên 3 dòng gồm:
+Tên hàng
+Số lượng
+Đơn giá
+Output
+Ghi ra danh sách mặt hàng đã tính thành tiền và sắp xếp theo chiết khấu giảm dần. Thông tin về mỗi lô hàng gồm:
+Mã hàng
+Tên hàng
+Tiền chiết khấu
+Thành tiền
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+May lanh SANYO
+12
+4000000
+Dien thoai Samsung
+30
+3230000
+Dien thoai Nokia
+18
+1240000
+-----------------OUTPUT 0-----------------
+DT01 Dien thoai Samsung  4845000 92055000
+ML01 May lanh SANYO 2400000 45600000
+DT02 Dien thoai Nokia 1116000 21204000
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

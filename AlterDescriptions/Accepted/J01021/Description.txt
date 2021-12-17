@@ -1,0 +1,29 @@
+ID: J01021
+Problem's name: TÍNH LŨY THỪA
+Type: NGÔN NGỮ JAVA
+Topic: LẬP TRÌNH JAVA CƠ BẢN
+
+
+_______________________________________________________________________________
+Cho hai số nguyên không âm a và b. Hãy tính ab.
+Nếu kết quả quá lớn hãy chia dư cho 109 + 7.
+Input
+Gồm không quá 20 bộ test, mỗi test ghi trên một dòng hai số a,b; a không quá 9 chữ số, b không quá 18 chữ số.
+Input kết thúc khi a = b = 0
+Output
+Với mỗi test ghi ra kết quả tính được trên một dòng.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2 3
+2 4
+3 2
+0 0
+-----------------OUTPUT 0-----------------
+8
+16
+9
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 120000 Kb

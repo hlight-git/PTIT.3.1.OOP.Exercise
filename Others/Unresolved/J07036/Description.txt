@@ -1,0 +1,68 @@
+ID: J07036
+Problem's name: BẢNG ĐIỂM THEO LỚP
+Type: HƯỚNG ĐỐI TƯỢNG NÂNG CAO
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+Thông tin về môn học gồm:
+Mã môn (không quá 10 ký tự)
+Tên môn (không quá 100 ký tự)
+Số tín chỉ: giá trị số nguyên dương không quá 6.
+Thông tin về mỗi sinh viên gồm:
+Mã sinh viên: dãy ký tự không có khoảng trống (không quá 15). Đảm bảo không trùng nhau.
+Họ và tên: độ dài không quá 100, có thể chưa ở dạng chuẩn
+Lớp: dãy ký tự không có khoảng trống (không quá 15)
+Email: dãy ký tự không có khoảng trống (không quá 30)
+Hãy nhập điểm thi và hiển thị bảng điểm theo lớp. Với mỗi lớp, bảng điểm cần được liệt kê theo thứ tự mã môn học, sau đó đến mã sinh viên tăng dần.  
+Input – 3 file văn bản
+SINHVIEN.in
+Dòng đầu ghi số sinh viên (không quá 1000)
+Mỗi sinh viên ghi trên 4 dòng lần lượt là: mã, họ tên, lớp, email.
+MONHOC.in
+Dòng đầu ghi số số môn học. Mỗi môn học ghi trên 3 dòng lần lượt là mã, tên và số tín chỉ
+ 
+BANGDIEM.in
+Dòng đầu ghi số dòng của bảng điểm
+Mỗi dòng tiếp theo gồm 3 thông tin: mã sinh viên, mã môn và điểm (số thực trong phạm vi 10).
+Tiếp theo là một dòng ghi số N là số lớp liệt kê bảng điểm
+Sau đó là N dòng ghi lớp tương ứng
+Output
+Ghi ra bảng điểm của từng lớp theo mẫu như trong ví dụ. Các thông tin cần liệt kê gồm: mã sinh viên, tên sinh viên, mã môn, tên môn và điểm.
+Đảm bảo thứ tự sắp xếp theo yêu cầu đề bài.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+SINHVIEN.in
+2
+B15DCKT150
+NGUYEN NGOC SON
+D15CQKT02-B
+sv3@stu.ptit.edu.vn
+B15DCKT199
+NguyeN   TrONg Tung
+D15CQKT02-B
+sv4@stu.ptit.edu.vn
+MONHOC.in
+2
+INT1155
+Tin hoc co so 2
+2
+SKD1103
+Ky nang tao lap Van ban
+1
+BANGDIEM.in
+2
+B15DCKT150 INT1155 8.5
+B15DCKT150 SKD1103 9
+1
+D15CQKT02-B
+-----------------OUTPUT 0-----------------
+BANG DIEM lop D15CQKT02-B:
+B15DCKT150 Nguyen Ngoc Son INT1155 Tin hoc co so 2 8.5
+B15DCKT150 Nguyen Ngoc Son SKD1103 Ky nang tao lap Van ban 9
+   
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

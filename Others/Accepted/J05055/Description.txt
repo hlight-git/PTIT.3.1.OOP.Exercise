@@ -1,0 +1,54 @@
+ID: J05055
+Problem's name: XẾP HẠNG VẬN ĐỘNG VIÊN - 1
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Cuộc thi chạy được dành cho tất cả mọi người ở tất cả các độ tuổi. Ban tổ chức muốn thêm tính hấp dẫn bằng cách có ưu tiên cho vận động viên cao tuổi.
+Nếu dưới 18 tuổi: không ưu tiên
+Nếu từ  18 tuổi đến dưới 25 tuổi :  ưu tiên 1 giây
+Nếu từ  25 tuổi đến 32  tuổi : ưu tiên 2 giây         
+Nếu từ 32 tuổi trở lên: ưu tiên 3 giây       
+Trong đó tuổi dựa vào năm sinh
+ 
+Hãy viết chương trình tính toán thành tích và xếp hạng các vận động viên.
+Input
+Dòng đầu thi số vận động viên (không quá 50).
+Mỗi vận động viên được ghi trên 4 dòng gồm:
+Họ tên
+Ngày sinh (dạng dd/mm/yyyy)
+Thời gian xuất phát (dạng hh:mm:ss)
+Thời gian đến đích (dạng hh:mm:ss)
+Output
+Ghi ra danh sách vận động viên đã xếp hạng theo đúng thứ tự nhập. Mỗi VĐV bao gồm:
+Mã (tính từ VDV01)
+Họ tên
+Thành tích thực tế (hh:mm:ss)
+Ưu tiên (hh:mm:ss)
+Thành tích để xếp hạng – đã tính ưu tiên (hh:mm:ss)
+Xếp hạng (chú ý: cùng thành tích thì sẽ xếp cùng một hạng)
+Ví dụ
+Input
+3
+Nguyen Van Thanh
+20/03/1990
+07:00:00
+07:10:01
+Nguyen Hoa Binh
+01/10/1993
+07:02:00
+07:11:20
+Le Thanh Van
+15/03/1998
+07:05:00
+07:15:30
+Output
+VDV01 Nguyen Van Thanh 00:10:01 00:00:02 00:09:59 2
+VDV02 Nguyen Hoa Binh 00:09:20 00:00:02 00:09:18 1
+VDV03 Le Thanh Van 00:10:30 00:00:01 00:10:29 3
+
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,26 @@
+ID: J03014
+Problem's name: TỔNG SỐ NGUYÊN LỚN - 2
+Type: NGÔN NGỮ JAVA
+Topic: XÂU KÝ TỰ
+
+
+_______________________________________________________________________________
+Cho hai xâu ký tự A và B mô tả hai số nguyên dương lớn có thể có đến 1000 chữ số.
+Có thể có các chữ số 0 ở đầu của A và B.
+Hãy tính tổng A + B.
+Kết quả ghi ra cần loại bỏ các chữ số 0 ở đầu nếu có.
+Input
+Có hai dòng ghi 2 số A và B.
+Output
+Ghi ra kết quả A + B.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+121212121212121212
+45678978
+-----------------OUTPUT 0-----------------
+121212121257800190
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

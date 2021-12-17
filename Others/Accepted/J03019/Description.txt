@@ -1,0 +1,27 @@
+ID: J03019
+Problem's name: XÂU CON LỚN NHẤT
+Type: NGÔN NGỮ JAVA
+Topic: XÂU KÝ TỰ
+
+
+_______________________________________________________________________________
+Xâu con của một xâu ký tự S được tạo ra bằng cách lấy một hoặc nhiều ký tự trong S và giữ nguyên thứ tự ban đầu.
+Cho xâu S chỉ bao gồm các chữ cái viết thường. Hãy in ra xâu con có thứ tự từ điển là lớn nhất.
+Input
+Chỉ có xâu ký tự S, độ dài không quá 100000. Không có khoảng trống.
+Output
+Ghi ra xâu con có thứ tự từ điển lớn nhất.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+ababba
+|||||||||||||||||INPUT 1||||||||||||||||||
+abbcbccacbbcbaaba
+-----------------OUTPUT 0-----------------
+bbba
+-----------------OUTPUT 1-----------------
+cccccbba
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

@@ -1,0 +1,28 @@
+ID: J03004
+Problem's name: CHUẨN HÓA XÂU HỌ TÊN - 1
+Type: NGÔN NGỮ JAVA
+Topic: XÂU KÝ TỰ
+
+
+_______________________________________________________________________________
+Một xâu họ tên được coi là viết chuẩn nếu chữ cái đầu tiên mỗi từ được viết hoa, các chữ
+cái khác viết thường. Các từ cách nhau đúng một dấu cách và không có khoảng trống
+thừa ở đầu và cuối xâu. Hãy viết chương trình đưa các xâu họ tên về dạng chuẩn.
+Dữ liệu vào: Dòng 1 ghi số bộ test. Mỗi bộ test ghi trên một dòng xâu ký tự họ tên, không quá
+80 ký tự.
+Kết quả: Với mỗi bộ test ghi ra xâu ký tự họ tên đã chuẩn hóa.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+   nGuYEN    vAN    naM
+tRan           TRUNG hiEU
+      vO le         hOA bINh
+-----------------OUTPUT 0-----------------
+Nguyen Van Nam
+Tran Trung Hieu
+Vo Le Hoa Binh
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

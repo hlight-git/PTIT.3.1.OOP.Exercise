@@ -1,0 +1,37 @@
+ID: J07048
+Problem's name: DANH SÁCH SẢN PHẨM – 2
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+Cửa hàng bán sản phẩm điện máy, công cụ cơ khí mô tả thông tin mỗi sản phẩm gồm các thông tin:
+Mã sản phẩm
+Tên sản phẩm
+Giá bán (USD)
+Thời hạn bảo hành (tính theo tháng).
+Hãy nhập thông tin sản phẩm và in danh sách sắp xếp theo giá bán giảm dần. Nếu giá bán bằng nhau thì sắp theo mã sản phẩm (thứ tự từ điển)
+Input – file SANPHAM.in
+Dòng đầu ghi số sản phẩm.
+Mỗi sản phẩm ghi trên 4 dòng lần lượt là mã, tên, giá bán, thời hạn.
+Output
+Ghi ra danh sách sắp xếp theo yêu cầu. Mỗi sản phẩm ghi trên một dòng với đầy đủ: mã, tên, giá bán, thời hạn.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+KC740
+May khoan KC1
+39
+18
+KC742
+May cat KC2
+46
+12
+-----------------OUTPUT 0-----------------
+KC742 May cat KC2 46 12
+KC740 May khoan KC1 39 18
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 200000 Kb

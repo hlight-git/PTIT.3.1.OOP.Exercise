@@ -1,0 +1,28 @@
+ID: J04001
+Problem's name: KHAI BÁO LỚP POINT
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: KHAI BÁO LỚP VÀ ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Khai báo lớp Point (điểm trong không gian hai chiều) có mô tả như sau: 
+
+Viết chương trình nhập vào hai điểm p1, p2 và tính khoảng cách hai điểm đó. 
+Input
+Dòng đầu ghi số bộ test, không quá 20.
+Mỗi bộ test có 4 số thực lần lượt là tọa độ của 2 điểm A và B, giá trị tuyệt đối không quá 1000.            
+Ouput
+Với mỗi bộ test, viết ra khoảng cách giữa 2 điểm với 4 chữ số phần thập phân. 
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+0 0 0 5
+0 199 5 6
+-----------------OUTPUT 0-----------------
+5.0000
+193.0648
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

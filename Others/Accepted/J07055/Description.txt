@@ -1,0 +1,50 @@
+ID: J07055
+Problem's name: XẾP LOẠI
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+Điểm tổng kết môn Lập trình hướng đối tượng được tính theo thang điểm 10 với tỉ lệ như sau:
+Điểm luyện tập: chiếm 25%
+Điểm thực hành online: chiếm 35%
+Điểm thi: chiếm 40%
+Hãy nhập bảng điểm, tính điểm tổng kết và xếp loại cho các sinh viên theo quy tắc:
+Từ 8 trở lên: xếp loại GIOI
+Từ 6.5 đến dưới 8: xếp loại KHA
+Từ 5 đến dưới 6.5: xếp loại TRUNG BINH
+Dưới 5 thì xếp loai KEM
+Input – BANGDIEM.in
+Dòng đầu ghi số sinh viên (không quá 20).
+Mỗi sinh viên ghi trên 4 dòng gồm:
+Họ tên: có thể chưa được chuẩn hóa
+Điểm luyện tập
+Điểm thực hành
+Điểm thi
+Các giá trị điểm là số nguyên và đảm bảo trong phạm vi từ 0 đến 10.
+Output
+Ghi ra danh sách sinh viên đã tính điểm và sắp xếp theo điểm tổng kết từ cao xuống thấp, gồm các thông tin:
+Mã sinh viên (tự động tăng theo thứ tự nhập, tính từ SV01)
+Họ tên đã chuẩn hóa
+Điểm tổng kết với đúng 2 số phần thập phân
+Xếp loại
+Chú ý: Dữ liệu đảm bảo không có 2 sinh viên nào có điểm tổng kết bằng nhau.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+ ha Thi kieu     anh
+7
+6
+7
+Pham    THI  HAO
+6
+7
+6
+-----------------OUTPUT 0-----------------
+SV01 Ha Thi Kieu Anh 6.65 KHA
+SV02 Pham Thi Hao 6.35 TRUNG BINH
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 200000 Kb

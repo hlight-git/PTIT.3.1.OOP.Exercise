@@ -1,0 +1,59 @@
+ID: J07053
+Problem's name: XÉT TUYỂN
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+Công ty PH tổ chức bài thi tuyển dụng gồm 2 nội dung: thi lý thuyết và thi thực hành. Điểm để xếp loại sẽ là điểm trung bình của hai bài thi đó cộng với điểm thưởng và làm tròn (round) đến hàng đơn vị. (Chú ý nếu tổng lớn hơn 10 thì vẫn chỉ là 10).
+Điểm thưởng được tính như sau:
+Nếu không có điểm nào nhỏ hơn 8 thì điểm thưởng = 1
+Nếu không có điểm nào nhỏ hơn 7.5 thì điểm thưởng = 0.5
+Còn lại: không có điểm thưởng.
+Xếp loại theo quy tắc sau:
+Nhỏ hơn 5: Truot
+Từ 5 đến 6: Trung binh
+Điểm 7: Kha
+Điểm 8: Gioi
+Điểm 9 hoặc 10: Xuat sac
+Hãy nhập thông tin và lập bảng kết quả xếp loại.
+Input - file XETTUYEN.in
+Dòng đầu ghi số người thi tuyển (nhỏ hơn 100).
+Mỗi người sẽ có thông tin trên 4 dòng gồm:
+Họ tên - có thể chưa được chuẩn hóa
+Ngày sinh (có thể chưa đúng định dạng dd/mm/yyyy)
+Điểm lý thuyết
+Điểm thực hành
+Các giá trị điểm đảm bảo trong phạm vi 10 và có thể có 1 số phần thập phân.
+Output
+Ghi ra danh sách theo đúng thứ tự nhập, các thông tin cách nhau một khoảng trống, lần lượt là:
+Mã thi tuyển (bắt đầu từ PH01)
+Họ tên: đã được chuẩn hóa
+Tuổi (chỉ cần tính theo năm sinh)
+Điểm trung bình (đã tính cả điểm thưởng và làm tròn)
+Xếp loại
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+Doan Thi Kim
+13/03/1982
+8
+9.5
+dinh Thi NGOC HA
+3/9/1996
+6.5
+8
+  tran thanh mai
+12/9/2004
+8
+9
+ 
+-----------------OUTPUT 0-----------------
+PH01 Doan Thi Kim 39 10 Xuat sac
+PH02 Dinh Thi Ngoc Ha 25 7 Kha
+PH03 Tran Thanh Mai 17 10 Xuat sac
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 200000 Kb

@@ -1,0 +1,26 @@
+ID: J07015
+Problem's name: SỐ NGUYÊN TỐ TRONG FILE NHỊ PHÂN
+Type: NGÔN NGỮ JAVA
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+Cho file nhị phân SONGUYEN.in trong đó ghi một ArrayList<Integer> theo kiểu object. Các giá trị đều nguyên dương và nhỏ hơn 10000.
+Hãy viết chương trình trình liệt kê các số nguyên tố khác nhau xuất hiện trong file theo thứ tự tăng dần và số lần xuất hiện của các số đó.
+Input
+File nhị phân SONGUYEN.in
+Output
+Ghi ra các số nguyên tố khác nhau theo thứ tự tăng dần và số lần xuất hiện.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+File SONGUYEN.in theo mô tả đề bài
+-----------------OUTPUT 0-----------------
+Danh sách các số nguyên tố tăng dần và số lần xuất hiện. Ví dụ:
+2 17
+11 15
+997 8
+_______________________________________________________________________________
+
+Giới hạn thời gian: 3s
+Giới hạn bộ nhớ: 100000 Kb

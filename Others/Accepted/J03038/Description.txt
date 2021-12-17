@@ -1,0 +1,20 @@
+ID: J03038
+Problem's name: ĐÁNH DẤU CHỮ CÁI
+Type: NGÔN NGỮ JAVA
+Topic: XÂU KÝ TỰ
+
+
+_______________________________________________________________________________
+Cho một xâu ký tự S chỉ có các chữ cái Tiếng Anh viết thường. Hãy đếm xem có bao nhiêu ký tự chữ cái khác nhau trong S.
+Input: Có duy nhất một dòng chứa xâu ký tự S, độ dài không quá 100.
+Output: Ghi ra số ký tự chữ cái khác nhau
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+banana
+-----------------OUTPUT 0-----------------
+3
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 150000 Kb

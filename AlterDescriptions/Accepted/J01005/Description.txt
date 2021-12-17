@@ -1,0 +1,27 @@
+ID: J01005
+Problem's name: CHIA TAM GIÁC
+Type: NGÔN NGỮ JAVA
+Topic: LẬP TRÌNH JAVA CƠ BẢN
+
+
+_______________________________________________________________________________
+Cho một tam giác cân có độ dài đáy bằng 1 và chiều cao bằng H. Bạn cần chia tam giác này thành N phần có diện tích bằng nhau và song song với đáy.
+
+Hãy in ra N-1 số là khoảng cách từ lát cắt thứ i tới đỉnh của tam giác.
+Input:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 100).
+Mỗi test gồm 2 số nguyên N và H (2 ≤ ≤ N ≤ 1000, 1 ≤ H ≤ 100 000).
+Output: 
+Với mỗi test, in ra đáp án tìm được trên một dòng với 6 chữ số sau dấu phảy.
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+3 2
+2 100000
+-----------------OUTPUT 0-----------------
+1.154701 1.632993
+70710.678119
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 120000 Kb

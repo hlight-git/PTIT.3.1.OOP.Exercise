@@ -1,0 +1,32 @@
+ID: J07008
+Problem's name: DÃY CON TĂNG DẦN
+Type: NGÔN NGỮ JAVA
+Topic: XÂU KÝ TỰ
+
+
+_______________________________________________________________________________
+Cho dãy số a[] có n phần tử là các số nguyên dương khác nhau từng đôi một. Hãy liệt kê tất cả các dãy con có từ 2 phần tử trở lên của dãy a[] thỏa mãn tính chất tăng dần.
+Dãy con tạo được bằng cách lấy ra các phần tử trong dãy a[] nhưng vẫn giữ nguyên thứ tự ban đầu.
+Coi mỗi dãy con như một xâu ký tự với các phần tử cách nhau một khoảng trống, hãy liệt kê theo thứ tự tử điển.
+Input - file DAYSO.in
+Dòng đầu ghi số n (không quá 20)
+Dòng thứ 2 ghi n số của dãy a[]. Các số khác nhau từng đôi một và có giá trị không quá 100.
+Output
+Ghi ra lần lượt các dãy con tăng dần theo thứ tự từ điển.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+4
+6 3 7 11
+-----------------OUTPUT 0-----------------
+3 11
+3 7
+3 7 11
+6 11
+6 7
+6 7 11
+7 11
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

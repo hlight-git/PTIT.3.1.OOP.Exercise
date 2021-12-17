@@ -1,0 +1,32 @@
+ID: J03033
+Problem's name: BỘI SỐ CHUNG NHỎ NHẤT
+Type: NGÔN NGỮ JAVA
+Topic: LẬP TRÌNH JAVA CƠ BẢN
+
+
+_______________________________________________________________________________
+Viết chương trình tính bội số chung nhỏ nhất của hai số nguyên dương lớn (có thể đến 500 chữ số)
+Input:
+Dòng 1 ghi số bộ test. Mỗi bộ test gồm 2 dòng, mỗi dòng ghi một số.
+ 
+Output:
+Với mỗi bộ test ghi ra kết quả trên một dòng.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+12
+100
+1212
+8888
+121212121212121212
+45678978
+-----------------OUTPUT 0-----------------
+300
+26664
+102534181818181818079284
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

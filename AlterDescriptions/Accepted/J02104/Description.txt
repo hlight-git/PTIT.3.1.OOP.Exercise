@@ -1,0 +1,37 @@
+ID: J02104
+Problem's name: DANH SÁCH CẠNH
+Type: NGÔN NGỮ JAVA
+Topic: MẢNG
+
+
+_______________________________________________________________________________
+Cho đồ thị vô hướng G=<V, E> được biểu diễn dưới dạng ma trận kề. Hãy viết chương trình thực hiện chuyển đổi biểu diễn đồ thị dưới dạng danh sách cạnh.
+Input:
+Dòng đầu tiên ghi số N là số đỉnh của đồ thị (không quá 1000)
+N dòng tiếp theo đưa vào các phần tử của ma trận kề.
+Output:
+Đưa ra danh sách cạnh tương ứng theo khuôn dạng trong ví dụ dưới đây.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+6
+0 1 1 0 1 0
+1 0 1 0 1 0
+1 1 0 1 0 0
+0 0 1 0 1 1
+1 1 0 1 0 1
+0 0 0 1 1 0
+-----------------OUTPUT 0-----------------
+(1,2)
+(1,3)
+(1,5)
+(2,3)
+(2,5)
+(3,4)
+(4,5)
+(4,6)
+(5,6)
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 120000 Kb

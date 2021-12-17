@@ -1,0 +1,51 @@
+ID: J05079
+Problem's name: LỚP HỌC PHẦN – 1
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Một lớp học phần tại Học viện Công nghệ Bưu chính Viễn thông sẽ gồm các thông tin:
+Mã môn học
+Tên môn học
+Nhóm lớp (thường được đánh số từ 01, tối đa mỗi môn không quá 40 nhóm)
+Tên giảng viên
+Hãy nhập thông tin danh sách các lớp học phần của học kỳ này và liệt kê danh sách các lớp theo môn học.
+Input
+Dòng đầu ghi số n là số lớp học phần.
+Mỗi lớp học phần ghi trên 4 dòng lần lượt là mã, tên, nhóm, tên giảng viên.
+Tiếp theo là một dòng ghi số m là số môn cần liệt kê danh sách
+Sau đó là m dòng, mỗi dòng ghi một mã môn học.
+Output
+Với mỗi môn học, ghi ra danh sách lớp học phần theo thứ tự nhóm từ nhỏ đến lớn. Chỉ cần liệt kê hai thông tin là nhóm và tên giảng viên.
+Xem ví dụ để hiểu rõ hơn cách hiển thị danh sách.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+4
+THCS2D20
+Tin hoc co so 2 - D20
+01
+Nguyen Binh An
+CPPD20
+Ngon ngu lap trinh C++ - D20
+01
+Le Van Cong
+THCS2D20
+Tin hoc co so 2 - D20
+02
+Nguyen Trung Binh
+LTHDTD19
+Lap trinh huong doi tuong - D19
+01
+Nguyen Binh An
+1
+THCS2D20
+-----------------OUTPUT 0-----------------
+Danh sach nhom lop mon Tin hoc co so 2 - D20:
+01 Nguyen Binh An
+02 Nguyen Trung Binh
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 100000 Kb

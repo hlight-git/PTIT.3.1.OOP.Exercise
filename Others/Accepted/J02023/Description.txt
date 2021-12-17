@@ -1,0 +1,31 @@
+ID: J02023
+Problem's name: LỰA CHỌN THAM LAM
+Type: NGÔN NGỮ JAVA
+Topic: MẢNG
+
+
+_______________________________________________________________________________
+Cho hai số nguyên dương N và S. Hãy lựa chọn các chữ số phù hợp để tạo ra số nhỏ nhất và số lớn nhất có N chữ số sao cho tổng chữ số đúng bằng S.
+Input
+Chỉ có một dòng ghi hai số N và S. (0 < N <= 100; 0 <= S <= 900)
+Output
+Ghi ra hai số nhỏ nhất và lớn nhất tìm được, cách nhau một khoảng trống.
+Nếu không thể tìm được thì ghi ra “-1 -1”
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3 20
+|||||||||||||||||INPUT 1||||||||||||||||||
+2 900
+-----------------OUTPUT 0-----------------
+299 992
+|||||||||||||||||INPUT 2||||||||||||||||||
+3 0
+-----------------OUTPUT 1-----------------
+-1 -1
+-----------------OUTPUT 2-----------------
+-1 -1
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

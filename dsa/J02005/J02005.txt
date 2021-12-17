@@ -1,0 +1,19 @@
+GIAO CỦA HAI DÃY SỐ
+Bài làm tốt nhất
+Cho dãy số a[] có n phần tử và dãy số b[] có m phần tử là các số nguyên dương nhỏ hơn 1000. Gọi tập hợp A là tập các số khác nhau trong a[], tập hợp B là tập các số khác nhau trong b[].
+Hãy tìm tập giao của A và B. 
+Input
+Dòng đầu ghi 2 số n và m (1 < n,m <100).
+Dòng thứ 2 ghi n số của a[].
+Dòng thứ 3 ghi m số của b[].
+Các số đều dương và nhỏ hơn 1000. 
+Output
+Ghi tập giao của A và B trên một dòng theo thứ tự từ nhỏ đến lớn. 
+Ví dụ
+Input
+Output
+5 6
+1 2 3 4 5
+3 4 5 6 7 8
+3 4 5
+   

@@ -1,0 +1,37 @@
+ID: J07033
+Problem's name: DANH SÁCH SINH VIÊN TRONG FILE - 1
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: 
+
+
+_______________________________________________________________________________
+Thông tin về mỗi sinh viên gồm:
+Mã sinh viên: dãy ký tự không có khoảng trống (không quá 15). Đảm bảo không trùng nhau.
+Họ và tên: độ dài không quá 100, có thể chưa chuẩn
+Lớp: dãy ký tự không có khoảng trống (không quá 15)
+Email: dãy ký tự không có khoảng trống (không quá 30)
+Hãy nhập danh sách sinh viên và liệt kê danh sách sắp xếp theo mã sinh viên tăng dần (thứ tự từ điển). Chú ý: cần chuẩn hóa họ tên.
+Input – file SINHVIEN.in
+Dòng đầu ghi số sinh viên (không quá 1000)
+Mỗi sinh viên ghi trên 4 dòng lần lượt là: mã, họ tên, lớp, email.
+Output
+Với mỗi truy vấn, liệt kê danh sách sinh viên của lớp đó theo mẫu như trong ví dụ. Mỗi sinh viên ghi trên một dòng, các thông tin cách nhau một khoảng trống. Yêu cầu sắp xếp theo mã sinh viên tăng dần.   
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+B15DCKT150
+NGUYEN NGOC SON
+D15CQKT02-B
+sv3@stu.ptit.edu.vn
+B15DCKT199
+NguyeN   TrONg Tung
+D15CQKT02-B
+sv4@stu.ptit.edu.vn
+-----------------OUTPUT 0-----------------
+B15DCKT150 Nguyen Ngoc Son D15CQKT02-B sv3@stu.ptit.edu.vn
+B15DCKT199 Nguyen Trong Tung D15CQKT02-B sv4@stu.ptit.edu.vn
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

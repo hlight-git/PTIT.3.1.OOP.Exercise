@@ -1,0 +1,25 @@
+ID: J01025
+Problem's name: HÌNH VUÔNG
+Type: NGÔN NGỮ JAVA
+Topic: LẬP TRÌNH JAVA CƠ BẢN
+
+
+_______________________________________________________________________________
+Cho 2 hình chữ nhật trên mặt phẳng Oxy. Cần tìm hình vuông có kích thước nhỏ nhất sao cho phủ kín được 2 hình chữ nhật đã cho.
+Input:
+2 dòng, mỗi dòng gồm 4 số nguyên lần lượt mô tả điểm trái dưới và phải trên của hình chữ nhật. Các tọa độ có giá trị tuyệt đối không vượt quá 1000.
+Output: 
+In ra diện tích của hình vuông tìm được.
+ 
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+6 6 8 8
+1 8 4 9
+ 
+-----------------OUTPUT 0-----------------
+49
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 150000 Kb

@@ -1,0 +1,24 @@
+ID: J02021
+Problem's name: LIỆT KÊ TỔ HỢP - 2
+Type: NGÔN NGỮ JAVA
+Topic: MẢNG
+
+
+_______________________________________________________________________________
+Cho hai số N và K (2 < K < N < 10).
+Sử dụng thuật toán sinh kế tiếp hoặc quay lui, hãy liệt kê tất cả các tổ hợp chập K phần tử của N số nguyên dương đầu tiên theo thứ tự tăng dần.
+Input
+Chỉ có một dòng ghi hai số N và K.
+Output
+Ghi ra lần lượt các tổ hợp, các giá trị số trong tổ hợp viết sát cạnh nhau, các tổ hợp cách nhau một khoảng trống.  Dòng cuối cùng ghi ra tổng số tổ hợp theo mẫu như trong ví dụ.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+5 3
+-----------------OUTPUT 0-----------------
+123 124 125 134 135 145 234 235 245 345
+Tong cong co 10 to hop
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

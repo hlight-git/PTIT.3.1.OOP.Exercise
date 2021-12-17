@@ -1,0 +1,27 @@
+ID: J07006
+Problem's name: SỐ KHÁC NHAU TRONG FILE - 3
+Type: NGÔN NGỮ JAVA
+Topic: 
+
+
+_______________________________________________________________________________
+Cho file nhị phân DATA.in có một ArrayList<Integer>, giá trị các số đều lớn hơn hoặc bằng 0 và nhỏ hơn 1000. Có không quá 106 số trong danh sách. 
+Hãy liệt kê các số khác nhau xuất hiện trong file và số lần xuất hiện của từng số đó.
+Input
+File DATA.in lưu một ArrayList<Integer> theo kiểu Object.
+Output
+Ghi ra các số khác nhau và số lần xuất hiện theo thứ tự tăng dần
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+File nhị phân theo mô tả đề bài
+-----------------OUTPUT 0-----------------
+Liệt kê các số tăng dần. Ví dụ:
+10 2
+23 1
+24 1
+25 4
+_______________________________________________________________________________
+
+Giới hạn thời gian: 3s
+Giới hạn bộ nhớ: 200000 Kb

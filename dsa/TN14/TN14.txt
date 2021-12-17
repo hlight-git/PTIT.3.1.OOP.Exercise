@@ -1,0 +1,16 @@
+NỐI DÂY
+Bài làm tốt nhất
+Có N sợi dây cần nối lại với nhau thành một sợi duy nhất. Mỗi lần chỉ được phép nối 2 sợi dây với nhau. Thời gian để nối hai sợi dây có độ dài a và b mất tổng cộng a + b phút.
+Hãy tính xem cần ít nhất bao nhiêu thời gian để có thể nối xong N sợi dây?
+Dữ liệu vào: Dòng đầu ghi số bộ test. Mỗi test có hai dòng:
+Dòng đầu tiên là số nguyên N (N ≤ 2*106).
+Dòng tiếp theo gồm N số nguyên dương c[i] ( 1 ≤ c[i] ≤ 109).
+Kết quả: In ra đáp án của bài toán theo modulo 109+7.
+Ví dụ:
+Input:
+Output
+1
+7
+2 4 1 2 10 2 3
+59
+ 

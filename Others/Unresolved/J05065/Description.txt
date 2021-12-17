@@ -1,0 +1,44 @@
+ID: J05065
+Problem's name: LIỆT KÊ NHÂN VIÊN THEO NHÓM
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Công ty ABC tổ chức mã nhân viên gồm 7 ký tự trong đó:
+2 ký tự đầu tiên là chức vụ (GD: Giám đốc, TP: Trưởng phòng, PP: Phó phòng, NV: Nhân viên).
+2 chữ số tiếp theo là hệ số lương (không quá 15)
+3 chữ số cuối mà số hiệu nhân viên
+Công ty chỉ có 1 giám đốc và không quá 3 trưởng phòng, 3 phó phòng. Quá trình nhập dữ liệu có thể bị nhầm nên từ người thứ 2 trở lên có mã GD hoặc người thứ 4 trở  lên có mã TP, PP thì được hiểu là nhân viên thường (coi như mã chính xác bắt đầu bằng NV).
+Hãy viết chương trình nhập danh sách nhân viên và liệt kê theo nhóm chức vụ được yêu cầu. Cần sắp xếp danh sách theo bậc lương giảm dần. Trong trường hợp bậc lương bằng nhau thì sắp xếp theo số hiệu tăng dần
+Input
+Dòng đầu tiên là số nhân viên (không quá 50)
+Mỗi nhân viên chỉ có 1 dòng gồm mã nhân viên sau đó đến họ tên.
+Sau đó là một dòng ghi số m là số truy vấn (không quá 3).
+Tiếp theo là m dòng, mỗi dòng ghi ra một chức vụ cần truy vấn.
+Output
+Với mỗi truy vấn, liệt kê danh sách nhân viên của nhóm chức vụ đó, đã sắp xếp theo tiêu chí trong đề bài. Hết một nhóm thì thêm một dòng trống.
+Thông tin 1 nhân viên bao gồm: tên, mã chức vụ, số hiệu, bậc lương.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+6
+GD08001 Nguyen Kim Loan
+TP05002 Hoang Thanh Tuan
+TP05001 Tran Binh Nguyen
+PP06002 Phan Trung Tuan
+PP06001 Tran Quoc Huy
+NV04003 Vo Van Lan
+2
+TP
+PP
+-----------------OUTPUT 0-----------------
+Tran Binh Nguyen TP 001 05
+Hoang Thanh Tuan TP 002 05
+  Tran Quoc Huy PP 001 06
+Phan Trung Tuan PP 002 06
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 150000 Kb

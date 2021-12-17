@@ -1,0 +1,23 @@
+ID: DSATest11
+Problem's name: SỐ TAM PHÂN
+Type: NGÔN NGỮ JAVA
+Topic: LẬP TRÌNH JAVA CƠ BẢN
+
+
+_______________________________________________________________________________
+Một số được gọi là “tam phân” nếu chỉ có các chữ số 0,1,2. Nhập vào một số nguyên dương không quá 9 chữ số, hãy kiểm tra xem đó có phải số tam phân hay không. Dòng đầu là số bộ test, mỗi dòng tiếp theo ghi một số cần kiểm tra. Nếu đúng in ra YES, nếu sai in ra NO.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+1214
+10210221
+22222222
+-----------------OUTPUT 0-----------------
+NO
+YES
+YES
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 100000 Kb

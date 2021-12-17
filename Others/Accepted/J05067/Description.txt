@@ -1,0 +1,41 @@
+ID: J05067
+Problem's name: QUẢN LÝ KHO XĂNG DẦU
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Một kho xăng dầu nhập khẩu (hoặc đặt hàng trong nước) 3 sản phẩm chính là Xăng, Dầu và Nhớt. Ký tự đầu tiên trong mã đơn hàng sẽ cho biết loại mặt hàng. Đơn giá bán ra và thuế được cho như trong bảng sau:
+
+Hai chữ cái cuối cùng của mã đơn hàng sẽ cho biết hãng sản xuất như trong bảng:
+
+Riêng mặt hàng sản xuất Trong Nước sẽ có hai chữ cái cuối cùng là TN và không bị tính thuế. Trong trường hợp đó, khi in thì hãng là Trong Nuoc
+Cho biết đơn giá và số lượng, hãy tính thành tiền cho mỗi đơn hàng.
+Input
+Dòng đầu ghi số đơn hàng (không quá 50).
+Mỗi đơn hàng chỉ có một dòng ghi 2 thông tin: mã đơn hàng và số lượng.
+Số lượng không quá 106.
+Output
+Ghi ra danh sách các đơn hàng theo đúng thứ tự nhập vào, gồm lần lượt các thông tin
+Mã đơn hàng
+Hãng sản xuất
+Đơn giá
+Thuế
+Thành tiền
+Dữ liệu vào đảm bảo tất cả các giá trị đều là số nguyên. Các thông tin viết ra cách nhau một khoảng trống.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+N89BP 4500
+D00BP 3500
+X92SH 2600
+-----------------OUTPUT 0-----------------
+N89BP British Petro 9700 873000 44523000
+D00BP British Petro 11200 1372000 40572000
+X92SH Shell 128000 9984000 342784000
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 150000 Kb

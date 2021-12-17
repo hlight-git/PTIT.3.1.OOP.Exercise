@@ -1,0 +1,34 @@
+ID: J01026
+Problem's name: SỐ CHÍNH PHƯƠNG
+Type: NGÔN NGỮ JAVA
+Topic: 
+
+
+_______________________________________________________________________________
+Nhập một số nguyên dương không quá 9 chữ số. Hãy kiểm tra xem đó có phải số chính phương hay không.
+Dòng đầu của dữ liệu vào ghi số bộ test, mỗi bộ test là một số nguyên dương ghi trên một dòng. 
+Kết quả: ghi ra YES nếu đúng và NO nếu không.
+Ví dụ:
+Input
+Output
+3
+11
+121
+361
+NO
+YES
+YES
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+11
+121
+361
+-----------------OUTPUT 0-----------------
+NO
+YES
+YES
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 100000 Kb

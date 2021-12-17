@@ -1,0 +1,25 @@
+ID: J03037
+Problem's name: VÒNG TRÒN
+Type: NGÔN NGỮ JAVA
+Topic: XÂU KÝ TỰ
+
+
+_______________________________________________________________________________
+Nam viết bảng chữ cái 2 lần lên trên một vòng tròn, mỗi kí tự xuất hiện đúng 2 lần. Sau đó nối lần lượt các kí tự giống nhau lại. Tổng cộng có 26 đoạn thẳng.
+Hình vẽ quá chằng chịt, Nam muốn đố các bạn xem có tất cả bao nhiêu giao điểm?
+Một giao điểm được tính khi hai đường thẳng của một cặp kí tự cắt nhau.
+Input
+Gồm một xâu có đúng 52 kí tự in hoa. Mỗi kí tự xuất hiện đúng 2 lần.
+Output
+In ra đáp án tìm được.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+ABCCABDDEEFFGGHHIIJJKKLLMMNNOOPPQQRRSSTTUUVVWWXXYYZZ
+-----------------OUTPUT 0-----------------
+1
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

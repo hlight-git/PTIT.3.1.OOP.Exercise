@@ -1,0 +1,17 @@
+CHIA TAM GIÁC
+Bài làm tốt nhất
+Cho một tam giác cân có độ dài đáy bằng 1 và chiều cao bằng H. Bạn cần chia tam giác này thành N phần có diện tích bằng nhau và song song với đáy.
+Hãy in ra N-1 số là khoảng cách từ lát cắt thứ i tới đỉnh của tam giác.
+Input:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 100).
+Mỗi test gồm 2 số nguyên N và H (2 ≤ ≤ N ≤ 1000, 1 ≤ H ≤ 100 000).
+Output: 
+Với mỗi test, in ra đáp án tìm được trên một dòng với 6 chữ số sau dấu phảy.
+Input:
+Output
+2
+3 2
+2 100000
+1.154701 1.632993
+70710.678119
+ 

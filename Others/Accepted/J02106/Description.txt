@@ -1,0 +1,32 @@
+ID: J02106
+Problem's name: MA TRẬN NHỊ PHÂN
+Type: NGÔN NGỮ JAVA
+Topic: MẢNG
+
+
+_______________________________________________________________________________
+Cho ma trận A[] có N hàng và 3 cột, trong đó các vị trí là các giá trị nhị phân (0 hoặc 1). Hãy đếm xem có bao nhiêu hàng mà số lượng số 1 nhiều hơn số lượng số 0.
+Input
+Dòng đầu ghi số nguyên dương N (không quá 1000).
+N dòng tiếp theo, mỗi dòng ghi 3 giá trị nhị phân.
+Output
+Ghi ra số dòng mà số lượng số 1 nhiều hơn số lượng số 0.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+1 1 0
+1 1 1
+1 0 0
+|||||||||||||||||INPUT 1||||||||||||||||||
+2
+1 0 0
+0 1 1
+-----------------OUTPUT 0-----------------
+2
+-----------------OUTPUT 1-----------------
+1
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

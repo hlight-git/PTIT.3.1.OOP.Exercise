@@ -1,0 +1,27 @@
+ID: J07023
+Problem's name: NGUYÊN TỐ VÀ THUẬN NGHỊCH
+Type: NGÔN NGỮ JAVA
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+Cho hai file nhị phân DATA1.in và DATA2.in trong đó mỗi file đều có một ArrayList<Integer> được ghi theo kiểu object. Các giá trị số đều nguyên dương và nhỏ hơn 10000.
+Hãy liệt kê các số vừa nguyên tố vừa thuận nghịch xuất hiện trong cả hai file trên. Các số cần được liệt kê theo thứ tự tăng dần. 
+Input
+Hai file nhị phân như mô tả.
+Output
+Ghi ra màn hình danh sách các số vừa nguyên tố vừa thuận nghịch xuất hiện trong cả hai file. Mỗi số thỏa mãn liệt kê trên một dòng theo thứ tự tăng dần, gồm giá trị số nguyên tố, số lần xuất hiện trong DATA1.in và số lần xuất hiện trong DATA2.in.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+File nhị phân DATA1.in và DATA2.in theo mô tả đề bài
+-----------------OUTPUT 0-----------------
+Danh sách các số nguyên tố tăng dần và số lần xuất hiện trong 2 file. Ví dụ:
+11 17 4
+101 6 8
+131 9 9
+ 
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

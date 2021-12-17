@@ -1,0 +1,23 @@
+ID: J01004
+Problem's name: SỐ NGUYÊN TỐ
+Type: NGÔN NGỮ JAVA
+Topic: LẬP TRÌNH JAVA CƠ BẢN
+
+
+_______________________________________________________________________________
+Viết chương trình kiểm tra một số nguyên dương có phải số nguyên tố hay không. Dòng đầu của dữ liệu vào ghi số bộ test. Mỗi dòng tiếp theo có một nguyên dương không quá 9 chữ số. Kết quả in ra YES nếu đó là số nguyên tố, in ra NO nếu ngược lại.
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+123456
+997
+111111111
+-----------------OUTPUT 0-----------------
+NO
+YES
+NO
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

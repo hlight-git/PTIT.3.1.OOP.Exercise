@@ -1,0 +1,49 @@
+ID: J02034
+Problem's name: BỔ SUNG DÃY SỐ
+Type: NGÔN NGỮ JAVA
+Topic: MẢNG
+
+
+_______________________________________________________________________________
+Cho dãy số có N số nguyên dương khác nhau đã được sắp xếp tăng dần. Hãy liệt kê các số còn thiếu để có đủ các số trong khoảng từ 1 đến số lớn nhất trong dãy ban đầu. 
+Input:
+Dòng đầu ghi số N là số con số được đếm (1 ≤ N ≤ 100)
+Các dòng tiếp theo ghi đủ N số A[i] theo thứ tự tăng dần (1 ≤ A[i] ≤ 200). Các số phân cách bởi khoảng trống hoặc xuống dòng.
+Kết quả:
+Nếu đã có đủ các số thì ghi ra Excellent!
+Nếu chưa đủ thì lần lượt liệt kê các số còn thiếu, mỗi số trên một dòng.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+4
+1 2 3 5
+|||||||||||||||||INPUT 1||||||||||||||||||
+Input 2
+-----------------OUTPUT 0-----------------
+4
+|||||||||||||||||INPUT 2||||||||||||||||||
+7
+4 5 7 8 9
+10 11
+-----------------OUTPUT 1-----------------
+Output 2
+|||||||||||||||||INPUT 3||||||||||||||||||
+Input 3
+-----------------OUTPUT 2-----------------
+1
+2
+3
+6
+|||||||||||||||||INPUT 4||||||||||||||||||
+5
+1 2 3
+4
+5
+-----------------OUTPUT 3-----------------
+Output 3
+-----------------OUTPUT 4-----------------
+Excellent!
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 150000 Kb

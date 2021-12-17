@@ -1,0 +1,37 @@
+ID: J01002
+Problem's name: TÍNH TỔNG
+Type: NGÔN NGỮ JAVA
+Topic: LẬP TRÌNH JAVA CƠ BẢN
+
+
+_______________________________________________________________________________
+Cho số nguyên dương N. 
+Hãy tính S = 1 + 2 + ... + N
+Dữ liệu vào: 
+Dòng đầu ghi số bộ test, không quá 10
+Mỗi dòng ghi một số nguyên dương N, không quá 10^9
+Kết quả:
+Với mỗi test, ghi kết quả trên một dòng.
+Ví dụ:
+Input
+Output
+2
+10
+20
+55
+210
+ 
+ 
+ 
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+10
+20
+-----------------OUTPUT 0-----------------
+55
+210
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

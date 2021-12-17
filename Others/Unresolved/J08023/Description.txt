@@ -1,0 +1,31 @@
+ID: J08023
+Problem's name: HÌNH CHỮ NHẬT LỚN NHẤT
+Type: ỨNG DỤNG JAVA COLLECTIONS
+Topic: ỨNG DỤNG JAVA COLLECTION
+
+
+_______________________________________________________________________________
+Cho N cột, mỗi cột có chiều cao bằng H[i]. Bạn hãy tìm hình chữ nhật lớn nhất bị che phủ bởi các cột?
+
+Input:
+Dòng đầu tiên là số lượng bộ test T (T ≤ 20).
+Mỗi test bắt đầu bởi số nguyên N (N ≤ 100 000).
+Dòng tiếp theo gồm N số nguyên H[i] (1 ≤ H[i] ≤ 109).
+Output: 
+Với mỗi test, in ra diện tích hình chữ nhật lớn nhất tìm được.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+7
+6 2 5 4 5 1 6
+3
+2 2 2
+ 
+-----------------OUTPUT 0-----------------
+12
+6
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 200000 Kb

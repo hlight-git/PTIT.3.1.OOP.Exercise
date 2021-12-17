@@ -1,0 +1,23 @@
+ID: J04003
+Problem's name: PHÂN SỐ
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: KHAI BÁO LỚP VÀ ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Viết chương trình khai báo lớp Phân số gồm hai thuộc tính private là tử số và mẫu số. Các giá trị đều nguyên dương và không quá 18 chữ số.
+Sau đó thực hiện nhập vào một phân số và in ra phân số đó ở dạng tối giản.
+Input
+Có hai số nguyên dương lần lượt là tử số và mẫu số.
+Output
+Ghi ra phân số tối giản như trong ví dụ
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+123 456
+-----------------OUTPUT 0-----------------
+41/152
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

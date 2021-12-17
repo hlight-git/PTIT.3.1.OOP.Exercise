@@ -1,0 +1,20 @@
+RÚT GỌN XÂU KÝ TỰ
+Bài làm tốt nhất
+Cho một xâu S. Mỗi bước, bạn được phép xóa đi 2 kí tự liền nhau mà giống nhau. Chẳng hạn xâu “aabcc” có thể trở thành “bcc” hoặc “aab” sau 1 lần xóa.
+Hỏi xâu cuối cùng thu được là gì? Nếu xâu rỗng, in ra “Empty String”.
+Input:
+Một xâu S chỉ gồm các chữ cái thường, có độ dài không vượt quá 100.
+Output: 
+In ra đáp án tìm được.
+Ví dụ:
+Test 1
+Test 2
+Input:
+aaabccddd
+  Output:
+abd
+  Input:
+abba
+  Output:
+Empty String
+   

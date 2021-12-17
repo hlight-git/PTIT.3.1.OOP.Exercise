@@ -1,0 +1,17 @@
+ID: HELLOFILE
+Problem's name: HELLO FILE
+Type: NGÔN NGỮ JAVA
+Topic: LẬP TRÌNH JAVA CƠ BẢN
+
+
+_______________________________________________________________________________
+Dữ liệu văn bản chứa trong file Hello.txt
+Yêu cầu đọc nội dung từ file văn bản Hello.txt và in kết quả ra màn hình.
+Input:
+Không có dữ liệu vào
+Output:
+
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

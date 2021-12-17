@@ -1,0 +1,32 @@
+ID: J03035
+Problem's name: ĐIỀN CHỮ SỐ
+Type: NGÔN NGỮ JAVA
+Topic: LẬP TRÌNH JAVA CƠ BẢN
+
+
+_______________________________________________________________________________
+Cho hai số nguyên dương A, B có cùng số chữ số, trong đó số A đã bị ẩn đi một số vị trí với dấu ?.
+Hãy đếm xem từ số A như vậy có thể tạo được bao nhiêu số lớn hơn B bằng cách điền chữ số bất kỳ vào vị trí ?. Các chữ số điền vào các vị trí ? khác nhau có thể khác nhau.
+Input
+Dòng đầu ghi số bộ test.
+Mỗi test viết trên hai dòng số A và số B, không quá 10 chữ số. Trong đó số A có một số vị trí được ẩn đi với dấu ?.
+Output
+Với mỗi test, ghi ra số lượng các số tạo được từ A cho giá trị lớn hơn B.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+36?1?8
+236428
+8?3
+910
+?
+5
+-----------------OUTPUT 0-----------------
+100
+0
+4
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

@@ -1,0 +1,44 @@
+ID: J05054
+Problem's name: XẾP HẠNG HỌC SINH
+Type: HƯỚNG ĐỐI TƯỢNG NÂNG CAO
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Trước khi có quy định mới về việc không cho điểm từng môn và tính trung bình ở cấp học Trung học cơ sở thì Xếp hạng học sinh trong lớp vẫn là một trong những thông tin rất quan trọng với phụ huynh và học sinh. Đôi khi chỉ vì tăng giảm một vài thứ hạng trong lớp mà học sinh được khen thưởng hoặc chê bai học hành sa sút.
+Hãy viết chương trình tính toán và xếp loại học lực và hếp hạng học sinh theo điểm trung bình.
+Input
+Dòng đầu ghi số học sinh trong lớp (không quá 50)
+Thông tin về mỗi học sinh gồm 2 dòng
+Họ và tên
+Điểm trung bình (số thực, chính xác đến 1 số phần thập phân, đảm bảo trong phạm vi từ 0 đến 10).
+Output
+Tính toán và in danh sách học sinh đã được xếp hạng (thứ tự vẫn giữ nguyên như thứ tự ban đầu). Với mỗi học sinh cần ghi ra các thông tin:
+Mã học sinh (tự động gán, tính từ HS01)
+Họ và tên
+ĐTB
+Xếp loại
+Nhỏ hơn 5: Yeu
+Từ 5 đến dưới 7: Trung Binh
+Từ 7 đến dưới 9: Kha
+Từ 9 trở lên: Gioi
+Xếp hạng
+Chú ý nếu 2 học sinh bằng điểm thì xếp hạng bằng nhau. Ví dụ có 2 học sinh cùng xếp thứ 10 thì học sinh tiếp theo có điểm thấp hơn 2 bạn đó sẽ xếp thứ 12.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+Tran Minh Hieu
+5.9
+Nguyen Bao Trung
+8.6
+Le Hong Ha
+9.2
+-----------------OUTPUT 0-----------------
+HS01 Tran Minh Hieu 5.9 Trung Binh 3
+HS02 Nguyen Bao Trung 8.6 Kha  2
+HS03 Le Hong Ha 9.2 Gioi 1
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

@@ -1,0 +1,21 @@
+CHU VI TAM GIÁC
+Bài làm tốt nhất
+Khai báo lớp Point (điểm trong không gian hai chiều) có mô tả như sau: 
+Viết chương trình nhập 3 điểm p1, p2, p3. Hãy tính chu vi tam giác được tạo bởi 3 điểm đó.
+Input
+Dòng đầu ghi số bộ test, không quá 10
+Mỗi bộ test ghi trên 1 dòng 6 số thực có giá trị tuyệt đối không quá 1000 lần lượt là tọa độ của 3 điểm A, B, C. 
+Output
+Nếu 3 điểm không thể tạo thành tam giác thì in ra INVALID
+Nếu 3 điểm tạo thành 1 tam giác thì in ra chu vi của tam giác đó, làm tròn đến 3 chữ số phần thập phân.
+Ví dụ
+Input
+Output
+3
+0 0 0 5 0 199
+1 1 1 1 1 1
+0 0 0 5 5 0
+INVALID
+INVALID
+17.071
+   

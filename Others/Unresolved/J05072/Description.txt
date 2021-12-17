@@ -1,0 +1,50 @@
+ID: J05072
+Problem's name: TÍNH CƯỚC ĐIỆN THOẠI CỐ ĐỊNH - 2
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Khi điện thoại di động còn chưa phổ biến, điện thoại cố định là phương tiện liên lạc chính. Mỗi cuộc gọi sẽ được tính cước dựa trên số máy gọi đến. Trong đó nếu gọi nội mạng thì cước rất rẻ so với gọi liên tỉnh, và mỗi tỉnh sẽ có mức cước khác nhau.
+Mỗi tỉnh thành phố sẽ có 3 thông tin gồm:
+Mã vùng
+Tên
+Giá cước
+Mỗi cuộc gọi có các thông tin:
+Thuê bao gọi đến
+Thời điểm bắt đầu cuộc gọi (hh:mm)
+Thời điểm kết thúc cuộc gọi (hh:mm)
+Các cuộc gọi có mã số 0 ở đầu là liên tỉnh, khi đó chữ số thứ 2 và thứ 3 sẽ tương ứng với mã vùng của số gọi đến. Trong trường hợp không có số 0 ở đầu thì là cuộc gọi nội mạng. Cước nội mạng được tính riêng là 800 VNĐ/phút. Tuy nhiên trong đợt khuyến mại này thì số phút gọi nội mạng còn được chia 3 rồi làm tròn lên (ví dụ 8 phút thì sẽ chỉ tính tiền 3 phút).
+Hãy viết chương trình tính cước các cuộc gọi.
+Input
+Dòng đầu ghi số tỉnh – thành phố. Tiếp theo, thông tin mỗi tỉnh thành phố sẽ có 3 dòng gồm mã vùng, tên tỉnh và giá cước.
+Tiếp theo là một dòng ghi số lượng cuộc gọi.
+Mỗi cuộc gọi ghi thông tin trên 1 dòng gồm 3 cụm: số thuê bao gọi đến, giờ bắt đầu, giờ kết thúc. Giả sử không có cuộc gọi nào qua thời điểm 0 giờ đêm, giờ kết thúc luôn lớn hơn giờ bắt đầu.
+Output
+Ghi ra lần lượt thông tin mỗi cuộc gọi đã sắp xếp theo giá cước giảm dần. Input đảm bảo không có 2 cuộc gọi nào có giá cước bằng nhau. Các thông tin cần liệt kê gồm:
+Số thuê bao gọi đến
+Tỉnh – thành phố tương ứng (nếu nội mạng thì ghi Noi mang)
+Số phút gọi (đã tính khuyến mại cho gọi nội mạng)
+Giá cước phải trả
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+53
+Da Nang
+3000
+64
+Vung Tau
+1000
+3
+064-824531 11:20 11:22
+8293567 09:07 09:15
+053-823532 12:00 12:05
+-----------------OUTPUT 0-----------------
+053-823532 Da Nang 5 15000
+8293567 Noi mang 3 2400
+064-824531 Vung Tau 2 2000
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

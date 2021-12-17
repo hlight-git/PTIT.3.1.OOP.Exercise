@@ -1,0 +1,28 @@
+ID: J03018
+Problem's name: TÌM SỐ DƯ
+Type: NGÔN NGỮ JAVA
+Topic: XÂU KÝ TỰ
+
+
+_______________________________________________________________________________
+Hãy tính giá trị biểu thức 
+
+Input:
+Dòng đầu là số lượng bộ test T (T ≤ 100).
+Mỗi test gồm một xâu biểu diễn số nguyên n, n có không quá 100 000 kí tự.
+Output: 
+Với mỗi test in ra đáp án tìm được trên một dòng.
+Ví dụ:
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+4
+123456789
+-----------------OUTPUT 0-----------------
+4
+0
+   
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

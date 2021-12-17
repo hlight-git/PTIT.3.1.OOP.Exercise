@@ -1,0 +1,49 @@
+QUẢN LÝ BÀI TẬP NHÓM – 1
+Bài làm tốt nhất
+Lớp học LTHĐT được chia thành các nhóm. Mỗi nhóm sẽ đăng ký một bài tập. Hãy tra cứu danh sách dữ liệu vào và liệt kê danh sách của các nhóm được yêu cầu và bài tập mà nhóm đó cần thực hiện.
+Input
+Dòng đầu ghi 2 số N và M (N không quá 100, M < N) là số sinh viên và số nhóm.
+Mỗi sinh viên ghi 4 dòng gồm:
+Mã sinh viên: không quá 15 ký tự
+Họ tên: Không quá 50 ký tự
+Số điện thoại: không quá 15 ký tự số
+Số thứ tự nhóm (đảm bảo từ 1 đến M).
+Tiếp theo là M dòng, mỗi dòng ghi tên một bài tập lớn ứng với thứ tự nhóm từ 1 đến M. Độ dài tên bài tập không quá 200 ký tự.
+Tiếp theo là một dòng ghi số Q là số truy vấn
+Tiếp theo là Q dòng, mỗi dòng ghi số thứ tự nhóm cần truy vấn thông tin.
+Output
+Ghi ra danh sách nhóm theo từng truy vấn, giữ nguyên thứ tự thành viên ban đầu. Sau đó là bài tập được giao cho nhóm. Mẫu trình bày danh sách như trong ví dụ.
+Ví dụ
+Input
+5 2
+B17DTCN001
+Nguyen Chi  Linh
+0987345543
+1
+B17DTCN011
+Vu Viet Thang
+0981234567
+1
+B17DTCN023
+Pham Trong Thang
+0992123456
+1
+B17DTCN022
+Nguyen Van  Quyet
+0977865432
+2
+B17DTCN031
+Ngo Thanh Vien
+0912313111
+2
+Xay dung website ban dien thoai truc tuyen
+Xay dung ung dung quan ly benh nhan Covid-19
+1
+1
+Output
+DANH SACH NHOM 1:
+B17DTCN001 Nguyen Chi  Linh 0987345543
+B17DTCN011 Vu Viet Thang 0981234567
+B17DTCN023 Pham Trong Thang 0992123456
+Bai tap dang ky: Xay dung website ban dien thoai truc tuyen
+ 

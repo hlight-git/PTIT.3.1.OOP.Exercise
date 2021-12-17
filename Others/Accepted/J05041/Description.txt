@@ -1,0 +1,53 @@
+ID: J05041
+Problem's name: SẮP XẾP BẢNG TÍNH CÔNG
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Thông tin về nhân viên bao gồm:
+Mã nhân viên (tự động tăng theo thứ tự nhập, tính từ NV01)
+Họ và tên
+Lương cơ bản mỗi ngày công
+Số ngày công
+Chức vụ
+Tiền lương được tính bằng lương cơ bản nhân với số ngày công.
+Giả sử quy tắc tính tiền thưởng như sau:
+Số ngày công từ 25 trở lên thì thưởng 20% tiền lương
+Số ngày công từ 22 đến dưới 25 thì thưởng 10% tiền lương
+Dưới 22 ngày công thì không có thưởng.
+Mỗi nhân viên có thể có thêm phụ cấp chức vụ:
+GD: 250000  
+PGD: 200000 
+TP: 180000
+NV: 150000
+Hãy nhập thông tin các nhân viên, tính toán thu nhập theo quy tắc trên và sắp xếp theo thu nhập giảm dần (không có 2 nhân viên nào có thu nhập đúng bằng nhau).
+Input
+Dòng đầu ghi số nhân viên.
+Mỗi nhân viên gồm 4 dòng lần lượt ghi Họ tên, lương cơ bản, số ngày công và chức vụ.
+Output
+Ghi ra danh sách nhân viên đã sắp xếp, mỗi nhân viên trên một dòng gồm: mã nhân viên, tên nhân viên, lương tháng, thưởng, phụ cấp và thu nhập. Các thông tin cách nhau một khoảng trống.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+Cao Van Vu
+50000
+26
+GD
+Do Van Truong
+40000
+25
+PGD
+Truong Thi Tu Linh
+45000
+22
+NV
+-----------------OUTPUT 0-----------------
+NV01 Cao Van Vu 1300000 260000 250000 1810000
+NV02 Do Van Truong 1000000 200000 200000 1400000
+NV03 Truong Thi Tu Linh 990000 99000 150000 1239000
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

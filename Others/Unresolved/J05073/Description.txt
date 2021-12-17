@@ -1,0 +1,29 @@
+ID: J05073
+Problem's name: TÍNH TOÁN GIÁ BÁN
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Một cửa hàng điện máy nhập hàng nguyên chiếc để bán. Các chi phí liên quan gồm tiền hàng (số lượng * đơn giá), thuế nhập khẩu, phí vận chuyển. Trong đó thuế nhập khẩu và phí vận chuyển được tính theo bảng sau (giả sử chữ cái đầu tiên trong mã hàng sẽ quyết định mức thuế và phí vận chuyển).
+
+Chữ cái cuối cùng của mã hàng là C hoặc K (có chứng từ đầy đủ hoặc không). Mặt hàng nào có chữ cuối cùng là C thì được giảm thêm 5% thuế so với mức trong bảng trên.
+Hãy tính giá bán từng sản phẩm.
+Biết rằng sau khi tính tổng chi phí gồm tiền hàng với thuế và phí vận chuyển, cửa hàng sẽ tính thêm 20% lợi nhuận trên mỗi đơn hàng. Sau đó chia cho số lượng và làm tròn đến 2 số phần thập phân.
+Input
+Dòng đầu ghi số đơn hàng. Mỗi đơn hàng ghi trên một dòng gồm mã, đơn giá, số lượng.
+Output
+Ghi ra danh sách đơn hàng (theo thứ tự nhập) gồm mã đơn hàng và giá bán mỗi mặt hàng (đã làm tròn đến 2 số phần thập phân).
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+TTVC 400 300
+CCAK 200 200
+-----------------OUTPUT 0-----------------
+TTVC 631.44
+CCAK 271.20
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

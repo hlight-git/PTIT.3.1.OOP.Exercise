@@ -1,0 +1,26 @@
+ID: J01003
+Problem's name: GIẢI PHƯƠNG TRÌNH BẬC NHẤT
+Type: NGÔN NGỮ JAVA
+Topic: LẬP TRÌNH JAVA CƠ BẢN
+
+
+_______________________________________________________________________________
+Phương trình bậc nhất là phương trình dạng ax + b = 0.
+Viết chương trình nhập vào hệ số a,b là các số thực và thực hiện giải phương trình bậc nhất.
+Nếu phương trình vô nghiệm thì in ra VN
+Nếu phương trình có vô số nghiệm thì in ra VSN
+Nếu phương trình có nghiệm duy nhất thì in ra với định dạng luôn 2 chữ số thập phân. 
+Input
+Chỉ có hai số thực a và b. 
+Output
+Ghi ra kết quả theo yêu cầu. 
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2 -1
+-----------------OUTPUT 0-----------------
+0.50
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 65536 Kb

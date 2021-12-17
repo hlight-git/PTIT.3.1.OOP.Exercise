@@ -1,0 +1,38 @@
+ID: J05081
+Problem's name: DANH SÁCH MẶT HÀNG
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Bài toán quản lý danh sách mặt hàng trong đó mỗi mặt hàng sẽ có các thông tin:
+Mã mặt hàng: tự động tăng, tính từ MH001
+Tên mặt hàng: xâu ký tự độ dài không quá 100
+Đơn vị tính: xâu ký tự độ dài không quá 10
+Giá mua: số nguyên dương không quá 7 chữ số
+Giá bán: số nguyên dương không quá 7 chữ số
+Viết chương trình nhập danh sách mặt hàng, sắp xếp theo lợi nhuận (giá bán trừ đi giá mua) giảm dần. Nếu lợi nhuận bằng nhau thì in ra theo thứ tự mã tăng dần. 
+Input
+Dòng đầu ghi số M là số mặt hàng (không quá 40).
+Tiếp theo là thông tin của M mặt hàng, mỗi mặt hàng ghi trên 4 dòng theo đúng thứ tự đã mô tả (không có mã)
+Output
+Ghi ra danh sách mặt hàng có đầy đủ thông tin ở trên và lợi nhuận tính được (mỗi thông tin cách nhau một khoảng trống)
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+Ao phong tre em
+Cai
+25000
+41000
+Ao khoac nam
+Cai
+240000
+515000
+-----------------OUTPUT 0-----------------
+MH002 Ao khoac nam Cai 240000 515000 275000
+MH001 Ao phong tre em Cai 25000 41000 16000
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

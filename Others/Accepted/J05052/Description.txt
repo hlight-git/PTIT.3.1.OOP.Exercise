@@ -1,0 +1,54 @@
+ID: J05052
+Problem's name: TRA CỨU ĐƠN HÀNG
+Type: HƯỚNG ĐỐI TƯỢNG NÂNG CAO
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Cửa hàng quần áo thời trang muốn lưu trữ thông tin về các đơn hàng dưới dạng các thông tin ngắn gọn nhất có thể. Mã đơn hàng do đó chứa khá nhiều thông tin:
+Chữ cái đầu tiên giúp chủ cửa hàng biết tên mặt hàng
+Ba chữ số tiếp theo là số thứ tự đơn hàng
+Chữ số cuối cùng là mã loại: chỉ có 2 loại là 1 hoặc 2.
+Dựa trên mã loại, mặt hàng sẽ được giảm giá theo quy tắc sau:
+nếu Mã loại là 1 thì Giảm giá = 50%*Đơn giá * Số lượng                                
+nếu Mã loại là 2 thì Giảm giá = 30%*Đơn giá * Số lượng
+Hãy tính toán thành tiền cho từng mã đơn hàng.
+Input
+Dòng đầu ghi số lượng đơn hàng
+Mỗi đơn hàng ghi trên 4 dòng gồm:
+Tên hàng (độ dài không quá 30)
+Mã đơn hàng hàng: có đúng 5 ký tự theo mẫu đã mô tả
+Đơn giá
+Số lượng
+Output
+Ghi ra danh sách mặt hàng sau khi tính toán, thứ tự giữ nguyên như lúc nhập. Các thông tin cần hiển thị gồm:
+Tên hàng
+Mã đơn hàng
+Số thứ tự đơn hàng (đủ 3 chữ số)
+Giảm giá
+Thành tiền
+Mỗi thông tin cách nhau một khoảng trống.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+Kaki 2
+K0252
+80000
+15
+Jean 1
+J2011
+200000
+24
+Jean 2
+J0982
+150000
+12
+-----------------OUTPUT 0-----------------
+Kaki 2 K0252 025 360000 840000
+Jean 1 J2011 201 2400000 2400000
+Jean 2 J0982 098 540000 1260000
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

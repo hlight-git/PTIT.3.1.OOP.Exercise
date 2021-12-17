@@ -1,0 +1,21 @@
+TÌM TỪ THUẬN NGHỊCH DÀI NHẤT
+Bài làm tốt nhất
+Cho dữ liệu vào dạng văn bản. Hãy tìm ra từ thỏa mãn tính chất thuận nghịch có độ dài
+lớn nhất và cho biết từ đó xuất hiện bao nhiêu lần. Nếu có nhiều từ cùng
+có độ dài lớn nhất thì in ra tất cả các từ đó theo thứ tự xuất hiện .
+Dữ liệu vào: Không quá 1000 từ.
+Kết quả:
+Ghi ra trên một dòng từ thuận nghịch có độ dài lớn nhất và số lần xuất hiện của
+nó. Nếu có nhiều từ cùng có độ dài lớn nhất thì các từ được liệt kê theo thứ tự xuất
+hiện ban đầu.
+Ví dụ:
+Dữ liệu vào
+KẾT QUA
+AAA BAABA HDHDH ACBSD SRGTDH DDDDS
+DUAHD AAA AD DA HDHDH AAA AAA AAA AAA
+DDDAS HDHDH HDH AAA AAA AAA AAA AAA
+AAA AAA AAA
+DHKFKH DHDHDD HDHDHD DDDHHH HHHDDD
+TDTD
+HDHDH 3
+ 

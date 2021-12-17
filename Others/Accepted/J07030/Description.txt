@@ -1,0 +1,32 @@
+ID: J07030
+Problem's name: CẶP SỐ NGUYÊN TỐ TRONG FILE - 1
+Type: NGÔN NGỮ JAVA
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+Cho hai file nhị phân DATA1.in và DATA2.in trong đó ghi một ArrayList<Integer> gồm tối đa 100000 số nguyên, các số đều nguyên dương và không quá 106.
+Hãy tìm các cặp số (n, m) sao cho:
+n < m và cả hai đều là số nguyên tố
+n có xuất hiện trong file DATA1.in.
+m có xuất hiện trong file DATA2.in
+n + m = 1000000
+Các cặp số tìm được cần liệt kê theo thứ tự tăng dần của giá trị n và không lặp lại.  
+Input
+File nhị phân DATA1.in và DATA2.in
+Output
+Các cặp số thỏa mãn theo thứ tự tăng dần của n.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+File nhị phân có một ArrayList<Integer>
+-----------------OUTPUT 0-----------------
+Ghi các cặp số thỏa mãn.
+Ví dụ:
+227 999773
+22643 977357
+25583 974417
+_______________________________________________________________________________
+
+Giới hạn thời gian: 3s
+Giới hạn bộ nhớ: 150000 Kb

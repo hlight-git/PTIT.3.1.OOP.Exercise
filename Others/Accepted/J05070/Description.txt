@@ -1,0 +1,56 @@
+ID: J05070
+Problem's name: CÂU LẠC BỘ BÓNG ĐÁ - 2
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Giả sử bạn có thông tin để tính toán xem doanh thu của mỗi CLB bóng đá trong một trận đấu là bao nhiêu (chỉ tính tiền bán vé).
+Mỗi CLB có 3 thông tin gồm:
+Mã CLB: gồm hai chữ cái in hoa
+Tên CLB: độ dài không quá 80
+Giá vé
+Thông tin về một trận đấu chỉ có hai thông tin:
+Mã trận đấu: trong đó ký tự đầu tiên là mã nước, hai ký tự tiếp theo là mã CLB, chữ số cuối cùng là thứ tự trận đấu. Trong bài toán này ta chỉ quan tâm đến mã CLB.
+Số cổ động viên mua vé vào sân
+Hãy tính doanh thu cho từng trận.
+Input
+Dòng đầu ghi số đội bóng Mỗi đội viết trên ba dòng lần lượt là mã, tên, giá vé.
+Tiếp theo là một dòng ghi số lượng trận đấu. Mỗi trận chỉ viết trên một dòng với hai thông tin: mã trận và số cổ động viên.
+Output
+Ghi ra danh sách trận đấu theo thứ tự doanh thu giảm dần, nếu doanh thu bằng nhau thì sắp xếp theo tên đội (thứ tự từ điển).
+Các thông tin về một trận đấu được ghi cách nhau một khoảng trống gồm: mã trận, tên đội, doanh thu.
+Ví dụ
+Input
+Output
+2
+AC
+AC Milan
+12
+MU
+Manchester United
+10
+2
+IAC1 80000
+EMU2 60000
+IAC1 AC Milan 960000
+EMU2 Manchester United 600000
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+2
+AC
+AC Milan
+12
+MU
+Manchester United
+10
+2
+IAC1 80000
+EMU2 60000
+-----------------OUTPUT 0-----------------
+IAC1 AC Milan 960000
+EMU2 Manchester United 600000
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

@@ -1,0 +1,54 @@
+ID: J05049
+Problem's name: LIỆT KÊ NHẬP XUẤT HÀNG THEO NHÓM
+Type: HƯỚNG ĐỐI TƯỢNG NÂNG CAO
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Người quản lý kho của một kho hàng nông sản tiến hành phân loại và gán mã cho các sản phẩm nhập/xuất trong tháng.
+Với mã hàng dạng 5 chữ cái, các quy tắc liên quan đến gán mã hàng được mô tả như sau:
+Số lượng Xuất hàng được tính như sau:
+Nếu Mã hàng có ký tự đầu là A thì Xuất = 60% * Nhập
+Nếu Mã hàng có ký tự đầu là B thì Xuất = 70% * Nhập 
+Chú ý: Số lượng xuất cần được làm tròn (round) đến hàng đơn vị sau khi tính theo công thức trên, không thể xuất với số lượng lẻ phần thập phân.                              
+Tính Đơn giá như sau:
+Nếu Mã hàng có ký tự cuối là Y thì Đơn giá = 110000
+Nếu Mã hàng có ký tự cuối là N thì Đơn giá = 135000                         
+Tiền = Xuất * Đơn giá.                                                                 
+Thuế được tính như sau:
+Nếu Mã hàng có ký tự đầu là A và ký tự cuối là Y thì Thuế = 8% của Tiền
+Nếu Mã hàng có ký tự đầu là A và ký tự cuối là N thì Thuế = 11% của Tiền
+Nếu Mã hàng có ký tự đầu là B và ký tự cuối là Y thì Thuế = 17% của Tiền
+Nếu Mã hàng có ký tự đầu là B và ký tự cuối là N thì Thuế = 22% của Tiền.                                                           
+Cho mã hàng và số lượng nhập. Viết chương trình lập bảng theo dõi chi tiết theo quy tắc trên sau đó liệt kê theo nhóm mặt hàng (A hoặc B).
+Input
+Dòng đâu ghi số mã hàng. Mỗi mã hàng chỉ có 2 dòng gồm mã và số lượng nhập.
+Dòng cuối ghi nhóm cần liệt kê (chữ cái A hoặc B).
+Dữ liệu đảm bảo trong cùng nhóm không có mặt hàng nào có thuế bằng nhau.
+Output
+Tính toán và in ra thông tin chi tiết từng mã hàng theo nhóm được yêu cầu, và đã được sắp xếp theo Thuế giảm dần gồm:
+Mã hàng (đảm bảo đúng quy tắc, chữ cái đầu là A hoặc B, chữ cái cuối là Y hoặc N).
+Số lượng nhập
+Số lượng xuất (làm tròn - round - đến đơn vị)
+Đơn giá
+Tiền
+Thuế
+Các thông tin cách nhau một khoảng trống.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+A001Y
+1000
+B012N
+2500
+B003Y
+4582
+B
+-----------------OUTPUT 0-----------------
+B003Y 4582 3207 110000 352770000 59970900
+B012N 2500 1750 135000 236250000 51975000
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb

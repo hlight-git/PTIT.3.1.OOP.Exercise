@@ -1,0 +1,26 @@
+ID: J07042
+Problem's name: LIỆT KÊ CẶP SỐ - 2
+Type: HƯỚNG ĐỐI TƯỢNG CƠ BẢN
+Topic: VÀO RA FILE
+
+
+_______________________________________________________________________________
+Cho lớp Pair ghép cặp 2 số nguyên được mô tả như trong hình:
+
+File dữ liệu nhị phân DATA.in có ghi một ArrayList<Pair> với giá trị nguyên dương ngẫu nhiên, không quá 105.
+Viết chương trình liệt kê các Pair thỏa mãn:
+Số thứ nhất phải nhỏ hơn số thứ hai
+Không trùng với bất cứ cặp nào trước đó.
+Hai phần tử của cặp số thỏa mãn tính chất nguyên tố cùng nhau
+Các Pair được liệt kê theo thứ tự tăng dần, mỗi Pair một dòng theo mẫu
+(first, second)
+Chú ý: giữa dấu phẩy và số thứ 2 có đúng một khoảng trống
+Input
+File nhị phân DATA.in
+Output
+Ghi ra các cặp số thỏa mãn theo thứ tự tăng dần.
+
+_______________________________________________________________________________
+
+Giới hạn thời gian: 3s
+Giới hạn bộ nhớ: 200000 Kb

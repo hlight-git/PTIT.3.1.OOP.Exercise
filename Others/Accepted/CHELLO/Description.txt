@@ -1,0 +1,17 @@
+ID: CHELLO
+Problem's name: Hello World
+Type: NGÔN NGỮ JAVA
+Topic: LẬP TRÌNH JAVA CƠ BẢN
+
+
+_______________________________________________________________________________
+In ra màn hình dòng chữ:
+Hello PTIT.
+Input
+Không có dữ liệu vào
+Output
+
+_______________________________________________________________________________
+
+Giới hạn thời gian: 1s
+Giới hạn bộ nhớ: 65536 Kb

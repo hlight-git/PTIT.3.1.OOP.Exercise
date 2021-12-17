@@ -1,0 +1,54 @@
+ID: J05051
+Problem's name: SẮP XẾP BẢNG TÍNH TIỀN ĐIỆN
+Type: HƯỚNG ĐỐI TƯỢNG NÂNG CAO
+Topic: MẢNG ĐỐI TƯỢNG
+
+
+_______________________________________________________________________________
+Để thuận tiện cho việc ghi chỉ số công tơ, nhân viên “trèo cột” đã có sẵn một bảng trong đó ghi thứ tự khác hàng, loại khách hàng (Loại SD) và chỉ số cũ. Anh ta chỉ cần ghi chỉ số mới là xong. Giả sử mã khách hàng được gán theo thứ tự, tính từ KH01.
+Các quy tắc tính tiền điện được mô tả như sau:
+Hệ số được tính như sau:                                                               
+            - Nếu Loại SD là "KD" thì Hệ số = 3                                                       
+            - Nếu Loại SD là "NN" thì Hệ số = 5                                                       
+            - Nếu Loại SD là "TT" thì Hệ số = 4                                                        
+            - Nếu Loại SD là "CN" thì Hệ số = 2                                                       
+3) Thành tiền = (Chỉ số mới - Chỉ số cũ) * Hệ số *550                        
+4) Tính Phụ trội như sau:                                                              
+- Phụ trội = 0 nếu (Chỉ số mới - Chỉ số cũ) < 50                                                
+- Phụ trội = Thành tiền * 35% nếu 50 <= (Chỉ số mới - Chỉ số cũ) <= 100                
+- Phụ trội = Thành tiền * 100% nếu (Chỉ số mới - Chỉ số cũ) > 100
+ 
+5) Tổng tiền phải trả= Phụ trội + Thành tiền.                                                               
+ 
+Hãy lập bảng kê tính tiền chi tiết cho từng khách hàng sau đó sắp xếp theo tổng tiền phải trả giảm dần.
+Input
+Dòng đầu ghi số khách hàng. Mỗi khách hàng ghi trên 3 dòng gồm Loại SD, chỉ số cũ và chỉ số mới.
+Output
+Ghi ra danh sách khách hàng đã sắp xếp theo tổng tiền phải trả giảm dần gồm các thông tin (cách nhau 1 khoảng trống):
+Mã khách hàng
+Hệ số
+Thành tiền
+Phụ trội
+Tổng tiền phải trả
+Chú ý: giá trị Phụ trội cần làm tròn (round) đến số nguyên gần nhất. Dữ liệu đảm bảo không có hai khách hàng nào có tổng tiền phải trả bằng nhau.
+Ví dụ
+
+|||||||||||||||||INPUT 0||||||||||||||||||
+3
+KD
+400
+555
+NN
+58
+400
+CN
+150
+700
+-----------------OUTPUT 0-----------------
+KH02 5 940500 940500 1881000
+KH03 2 605000 605000 1210000
+KH01 3 255750 255750 511500
+_______________________________________________________________________________
+
+Giới hạn thời gian: 2s
+Giới hạn bộ nhớ: 150000 Kb
